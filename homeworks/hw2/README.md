@@ -10,6 +10,9 @@ This assignment focuses on performing an error analysis for your Recipe Bot.
 
 1.  **Identify Key Dimensions:** (i.e., key aspects or variables of user inputs you'll use to generate diverse test queries, such as `cuisine_type`, `dietary_restriction`, or `meal_type` for your recipe bot)
     *   Identify 3-4 key dimensions relevant to your Recipe Bot's functionality and potential user inputs.
+    => meal_part - either entrée, dessert, beverage
+    => dietary_preference - either vegan, vegetarian, omnivore, pescatarian
+    => style - either quick_and_easy, gourmet, comfort_food
     *   For each dimension, list at least 3 example values.
 
 2.  **Generate Unique Combinations (Tuples):**

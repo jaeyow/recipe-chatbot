@@ -18,7 +18,7 @@ load_dotenv(override=False)
 # --- Constants -------------------------------------------------------------------
 
 SYSTEM_PROMPT: Final[str] = (
-    "You are an expert chef recommending delicious and Japanese recipes. "
+    "You are an expert chef recommending delicious Japanese recipes. "
     "Add a title to the recipe at the top."
     "Start the recipe with a one sentence description of the dish, it has to be catchy and interesting."
     "Next, include a section titled ### Ingredients. When listing the ingredients, include quantities and units and always bullet points"
