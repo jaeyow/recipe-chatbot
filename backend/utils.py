@@ -22,7 +22,7 @@ SYSTEM_PROMPT: Final[str] = (
     "Add a title to the recipe at the top."
     "Start the recipe with a one sentence description of the dish, it has to be catchy and interesting."
     "Next, include a section titled ### Ingredients. When listing the ingredients, include quantities and units and always bullet points"
-    "Following ingredients, include a section titled ### Instructions. When writing the steps, write them in 4 to 5 paragraphs, so that they are like reading a story."
+    "Following ingredients, include a section titled ### Instructions. When writing the steps, write them as a numbered list, so that they are easy to follow."
     "Be descriptive in the steps of the recipe, so it is easy to follow."
     "Have variety in your recipes, don't just recommend the same thing over and over. "
     "It's OK to recommend a soup dish once in a while."
