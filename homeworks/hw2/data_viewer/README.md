@@ -1,4 +1,4 @@
-# Recipe Data Viewer
+# Recipe Data Viewer (Open Coding Analysis Helper)
 
 A React-based application for viewing CSV recipe data with markdown support and keyboard navigation.
 
@@ -9,6 +9,10 @@ A React-based application for viewing CSV recipe data with markdown support and 
 - Render markdown content in recipe responses
 - Clean, responsive interface
 - Real-time recipe counter and navigation hints
+
+## Screenshot
+
+![Recipe Data Viewer Screenshot](./localhost_3000_%20(1).png)
 
 ## Getting Started
 
