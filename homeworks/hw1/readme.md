@@ -7,6 +7,7 @@ Your main task is to get the repo to a starting point for Lesson 2.
     *   Open `backend/utils.py` and locate the `SYSTEM_PROMPT` constant. Currently, it's a naive placeholder.
     *   Replace it with a well-crafted system prompt. Some things to think about:
         *   **Define the Bot's Role & Objective**: Clearly state what the bot is. (e.g., "You are a friendly and creative culinary assistant specializing in suggesting easy-to-follow recipes.")
+        => JO Note: I have modified the chat bot a little bit, and made it more specific to Japanese or Japanese-inspired recipes only. 
         *   **Instructions & Response Rules**: Be specific.
             *   What should it *always* do? (e.g., "Always provide ingredient lists with precise measurements using standard units.", "Always include clear, step-by-step instructions.")
             *   What should it *never* do? (e.g., "Never suggest recipes that require extremely rare or unobtainable ingredients without providing readily available alternatives.", "Never use offensive or derogatory language.")
@@ -65,6 +66,7 @@ Your main task is to get the repo to a starting point for Lesson 2.
     *   After you have updated the system prompt in `backend/utils.py` and expanded the queries in `data/sample_queries.csv`, run the bulk test script:
         ```bash
         python scripts/bulk_test.py
+        python scripts/bulk_test_hw2.py
         ```
     * Make sure a new CSV has been written.
     
