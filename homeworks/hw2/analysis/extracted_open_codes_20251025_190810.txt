@@ -1,0 +1,66 @@
+# Extracted Open Codes
+
+Total codes: 61
+Source: /Users/josereyes/Dev/recipe-chatbot/results/opencodes/opencodes_results_20251025_154225.csv
+
+1. prep time not in description
+2. serving size not formatted correctly
+3. instructions are not formatted correctly
+4. instructions formatting is not following standard
+5. service size not following formatting standard
+6. serving size formatting issue
+7. instruction formatting issue
+8. Instruction formatting issues
+9. Serving Size issues
+10. Displays Tip instead of Fun Tip
+11. prep time not found in recipe description
+12. instruction formatting
+13. serving size formatting
+14. Display Fun tip instead of Fun Tip, and formatting issues
+15. miso soup is liquid but not a drink
+16. Instruction formatting
+17. Serving size formatting issue
+18. Displays Tip instead of Fun Tip
+19. prep time not in description
+20. Instructions formatting issues
+21. Fun Tip formatting issue
+22. prep time is not found in description
+23. instructions formatting not to standard
+24. Serving size formatting
+25. Fun Tip instead of Fun tip
+26. prep time not specified in description
+27. instructions formatting not standard
+28. Serving size formatting not standard
+29. Fun Tip not Fin tip
+30. The instruction individual steps should have a step short descriptor in bold followed by a colon.
+31. Instructions should be bolded, then bulleted under it
+32. Serving size formatting
+33. Fun tip instead of Tip
+34. prep time not in description
+35. Fun Tip instead of Fun tip
+36. Instructions formatting issue
+37. Instructions formatting
+38. Serving size formatting
+39. Fun Tip instead of Tip, and formatting
+40. Serving size format is not using standard
+41. preparation time not in description
+42. This is supposed to be a pescetarian dish, but fish is not an ingredient in this dish.
+43. Fun Tip is missing, has Tip though
+44. Serving Size is not standard format
+45. Instruction sections are numbered and bolded correctly, but the text inside it must be bullet list
+46. Serving size is not clear, ie. not in it's own section
+47. Make it clear that vegetarian means to avoid dashi, bonito flakes
+48. Prep time not mentioned
+49. Fun Tip is italicised. It should be bold, and a heading
+50. Very important detail like being nut-free should be mentioned in the dish description
+51. Displays Tip instead of Fun Tip, and it is not in bold
+52. There is no mention of the prep time in the recipe description
+53. This recipe does not include serving size.
+54. This recipe does not mention preparation time.
+55. Both of these details should be mentioned in the recipe summary
+56. Displays Fun tip, instead of Fun Tip, and not in bold
+57. This dish is vegetarian, however, although the dashi used is from kombu and mushroom, we need to emphasise this in the recipe introduction to reassure the user that this is indeed a vegetarian dish.
+58. This recipe has a weird formatting where although the instruction sections are in bold, there is still a numbered list that is weirdly formatted. We don't need the numbers inside the instruction sections, rather these can be bullet lists
+59. The Bolded instruction sections can then be numbered to make reading easier
+60. The recipe and instructions are complete and good quality, and even the dish plating is described in detail, and the serving size is marked clearly.
+61. Displays "Pro Tip" in bold instead of "Fun Tip"

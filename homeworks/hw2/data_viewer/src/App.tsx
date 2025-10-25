@@ -39,6 +39,12 @@ const RecipeNavigator: React.FC<{ recipes: Recipe[], originalFileName: string }>
 
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
+      // Don't navigate if user is typing in a textarea or input field
+      const target = event.target as HTMLElement;
+      if (target.tagName === 'TEXTAREA' || target.tagName === 'INPUT') {
+        return;
+      }
+      
       if (event.key === 'ArrowLeft' && currentIndex > 0) {
         setCurrentIndex(currentIndex - 1);
       } else if (event.key === 'ArrowRight' && currentIndex < recipes.length - 1) {
