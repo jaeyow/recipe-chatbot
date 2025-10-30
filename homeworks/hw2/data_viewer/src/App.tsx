@@ -22,7 +22,7 @@ const FileUploader: React.FC<{ onFileLoad: (recipes: Recipe[], fileName: string)
 
   return (
     <div className="file-uploader">
-      <h1>Recipe Data Viewer</h1>
+      <h1>Japanese Recipe Data Viewer</h1>
       <p>Upload your CSV file to view recipes</p>
       <input 
         type="file" 
@@ -78,6 +78,7 @@ const RecipeNavigator: React.FC<{ recipes: Recipe[], originalFileName: string }>
         recipe={recipes[currentIndex]}
         currentIndex={currentIndex}
         total={recipes.length}
+        fileName={originalFileName}
       />
     </div>
   );

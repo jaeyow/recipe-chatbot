@@ -7,21 +7,25 @@ interface RecipeViewerProps {
   recipe: Recipe;
   currentIndex: number;
   total: number;
+  fileName?: string;
 }
 
 export const RecipeViewer: React.FC<RecipeViewerProps> = ({ 
   recipe, 
   currentIndex, 
-  total 
+  total,
+  fileName = 'default'
 }) => {
   // State for annotations per recipe
-  const [annotations, setAnnotations] = useState<Record<string, string>>({});
   const [currentAnnotation, setCurrentAnnotation] = useState('');
   const [wordCount, setWordCount] = useState(0);
 
+  // Create unique localStorage key including filename to avoid conflicts
+  const getStorageKey = (recipeId: string) => `annotation_${fileName}_${recipeId}`;
+
   // Load saved annotation for current recipe
   useEffect(() => {
-    const saved = localStorage.getItem(`annotation_${recipe.id}`);
+    const saved = localStorage.getItem(getStorageKey(recipe.id));
     if (saved) {
       setCurrentAnnotation(saved);
       setWordCount(saved.split(/\s+/).filter(word => word.length > 0).length);
@@ -29,16 +33,22 @@ export const RecipeViewer: React.FC<RecipeViewerProps> = ({
       setCurrentAnnotation('');
       setWordCount(0);
     }
-  }, [recipe.id]);
+  }, [recipe.id, fileName]);
 
   const handleAnnotationChange = (value: string) => {
     const words = value.split(/\s+/).filter(word => word.length > 0);
     if (words.length <= 500) {
       setCurrentAnnotation(value);
       setWordCount(words.length);
-      // Auto-save to localStorage
-      localStorage.setItem(`annotation_${recipe.id}`, value);
+      // Auto-save to localStorage with filename-specific key
+      localStorage.setItem(getStorageKey(recipe.id), value);
     }
+  };
+
+  const clearCurrentAnnotation = () => {
+    setCurrentAnnotation('');
+    setWordCount(0);
+    localStorage.removeItem(getStorageKey(recipe.id));
   };
 
   return (
@@ -97,10 +107,19 @@ export const RecipeViewer: React.FC<RecipeViewerProps> = ({
               <label htmlFor="annotations" className="annotation-label">
                 Labels/Notes/Patterns:
               </label>
-              <div className="word-counter">
-                <span className={wordCount > 450 ? 'word-count-warning' : 'word-count'}>
-                  {wordCount}/500 words
-                </span>
+              <div className="annotation-controls">
+                <button 
+                  onClick={clearCurrentAnnotation}
+                  className="clear-annotation-button"
+                  title="Clear this annotation"
+                >
+                  🗑️ Clear
+                </button>
+                <div className="word-counter">
+                  <span className={wordCount > 450 ? 'word-count-warning' : 'word-count'}>
+                    {wordCount}/500 words
+                  </span>
+                </div>
               </div>
             </div>
             

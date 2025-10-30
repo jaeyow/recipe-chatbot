@@ -1,0 +1,49 @@
+id,query,dietary_restriction
+1,"Hey, do you have any easy vegan recipes for a weeknight dinner? Something quick and tasty would be great!",vegan
+2,"Hey, I'm vegan and need some easy weeknight dinner ideas that aren’t boring. Got anything?",vegan
+3,"Looking for some easy vegan lunch ideas that aren’t just salad, any good recipes?",vegan
+4,"Hey, can you suggest some easy gluten-free dinner ideas? Trying to avoid gluten but still want something tasty.",gluten-free
+5,Any quick gluten free dinner ideas? Trying to avoid bread and pasta tonight.,gluten-free
+6,Looking for some easy gluten free dinner ideas that my whole family will actually enjoy!,gluten-free
+7,"trying to stick to keto, any easy quick dinner ideas that won’t mess with my macros?",keto
+8,Trying to stay keto—got any easy dinner recipes that won’t blow my carbs for the day?,keto
+9,Trying to stick to keto—got any easy low-carb dinner recipes?,keto
+10,Got any easy dairy-free dinner recipes? I’m trying to avoid milk and cheese.,dairy-free
+11,"Looking for some easy dairy-free dinner ideas, anything tasty and quick?",dairy-free
+12,"Hey, can you suggest some tasty dinner ideas that are completely dairy-free? Trying to avoid milk and cheese.",dairy-free
+13,Trying to eat more vegetarian stuff—got any easy dinner recipes that don’t take forever?,vegetarian
+14,Trying to eat more vegetarian meals—got any easy dinner recipes that aren’t just salad?,vegetarian
+15,Looking for a simple vegetarian dinner recipe that’s filling and not too complicated—got any ideas?,vegetarian
+16,Got any quick paleo-friendly dinner ideas? Trying to keep it clean but tasty tonight.,paleo
+17,Looking for some easy paleo-friendly meals I can whip up after work—got any favorites?,paleo
+18,Looking for some easy paleo lunch ideas that don’t take forever to make. Got any favorites?,paleo
+19,Got any good diabetic-friendly lunch ideas that won’t spike my blood sugar?,diabetic-friendly
+20,Got any easy diabetic-friendly dinner recipes? Something low in sugar but tasty would be awesome.,diabetic-friendly
+21,"Hey, can you suggest some easy diabetic-friendly lunch ideas that don’t spike blood sugar?",diabetic-friendly
+22,Got any nut-free dinner ideas? My kid’s allergic and I wanna try something new.,nut-free
+23,"Looking for some easy nut-free snack ideas, since I have a sensitivity. Any good suggestions?",nut-free
+24,"Hey, can you suggest some easy nut-free snacks for my kids?",nut-free
+25,Got any easy raw vegan lunch ideas? I’m trying to keep things simple and fresh.,raw vegan
+26,"Looking for some easy raw vegan snacks I can prep quickly, any suggestions?",raw vegan
+27,"hey, do you have any tasty raw vegan lunch ideas? trying to keep it simple but yummy!",raw vegan
+28,"Looking for some easy pescatarian lunch recipes, nothing too fancy just good and quick.",pescatarian
+29,"Looking for some easy pescatarian dinner ideas—something quick with fish, but nothing too fancy?",pescatarian
+30,Trying to stick to pescatarian meals this week—got any easy dinner ideas with fish or seafood?,pescatarian
+31,Got any easy Whole30 lunch ideas? Trying to keep it simple but tasty.,whole30
+32,Trying to stick to Whole30 — got any easy weeknight dinner recipes that fit?,whole30
+33,"Hey, I’m doing Whole30 and could use some easy dinner ideas that won’t mess up the plan. Got any good recipes?",whole30
+34,"Hey, can you suggest some easy low-sodium meals? Trying to watch my salt intake.",low-sodium
+35,"Hey, can you suggest some tasty low-sodium dinner ideas? Trying to keep my salt intake down.",low-sodium
+36,"Looking for some easy low-sodium dinner ideas, got any recipes?",low-sodium
+37,"Hey, can you suggest some easy low-carb dinner ideas? Trying to keep the carbs down but still want something tasty.",low-carb
+38,"Hey, can you suggest some easy low-carb meals I can make for dinner?",low-carb
+39,Looking for some easy low-carb dinner ideas that don’t taste like cardboard—got any good ones?,low-carb
+40,"Looking for some easy sugar-free snacks to keep me going during work, any ideas?",sugar-free
+41,"Hey, can you suggest some easy sugar-free snack recipes? Trying to cut out any added sugars.",sugar-free
+42,"Hey, I’m trying to cut out sugar—got any tasty sugar-free snack recipes?",sugar-free
+43,Looking for some easy halal dinner recipes that don’t require fancy ingredients. Got any ideas?,halal
+44,Can you suggest some easy halal recipes for dinner? Looking for something quick and tasty.,halal
+45,"Looking for some easy halal dinner recipes that my whole family will love, any ideas?",halal
+46,Looking for some tasty kosher dinner ideas that aren’t too complicated—got any favorites?,kosher
+47,Got any easy kosher dinner recipes? Trying to keep it simple tonight but still tasty.,kosher
+48,Got any easy kosher chicken recipes? Want something quick for dinner tonight.,kosher

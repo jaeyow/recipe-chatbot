@@ -151,7 +151,7 @@ def main():
     # Set up paths
     script_dir = Path(__file__).parent
     hw3_dir = script_dir.parent
-    data_dir = hw3_dir / "data"
+    data_dir = hw3_dir / "mine" / "data"
     
     # Load dietary queries
     queries_path = data_dir / "dietary_queries.csv"
