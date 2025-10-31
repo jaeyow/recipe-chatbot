@@ -135,7 +135,7 @@ def main():
     # Set up paths
     script_dir = Path(__file__).parent
     hw3_dir = script_dir.parent
-    data_dir = hw3_dir / "data"
+    data_dir = hw3_dir / "mine"
     
     # Load labeled traces
     labeled_path = data_dir / "labeled_traces.csv"

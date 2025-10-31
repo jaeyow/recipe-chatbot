@@ -220,8 +220,8 @@ def main():
     # Set up paths
     script_dir = Path(__file__).parent
     hw3_dir = script_dir.parent
-    data_dir = hw3_dir / "data"
-    results_dir = hw3_dir / "results"
+    data_dir = hw3_dir / "mine"
+    results_dir = hw3_dir / "my_results"
     
     # Load test set
     test_path = data_dir / "test_set.csv"

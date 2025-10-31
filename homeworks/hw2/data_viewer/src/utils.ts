@@ -7,7 +7,24 @@ export const parseCSV = (csvText: string): Recipe[] => {
     skipEmptyLines: true,
   });
   
-  return parsed.data as Recipe[];
+  // Map the parsed data to ensure compatibility with both formats
+  return (parsed.data as any[]).map((row, index) => {
+    // Handle different CSV formats
+    const recipe: Recipe = {
+      // Use existing id field, or fallback to trace_id, query_id, or generate one
+      id: row.id || row.trace_id || row.query_id || `recipe_${index + 1}`,
+      query: row.query || '',
+      response: row.response || '',
+      // Optional fields for raw_traces.csv format
+      dietary_restriction: row.dietary_restriction,
+      success: row.success,
+      error: row.error,
+      trace_id: row.trace_id,
+      query_id: row.query_id
+    };
+    
+    return recipe;
+  }).filter(recipe => recipe.query && recipe.response); // Filter out incomplete rows
 };
 
 export const loadCSVFile = (file: File): Promise<Recipe[]> => {
@@ -33,19 +50,28 @@ export const exportCSVWithOpenCodes = (recipes: Recipe[], originalFileName: stri
   // Get all annotations from localStorage
   const recipesWithOpenCodes = recipes.map(recipe => ({
     ...recipe,
-    open_codes: localStorage.getItem(`annotation_${recipe.id}`) || ''
+    open_codes: localStorage.getItem(`annotation_${originalFileName}_${recipe.id}`) || ''
   }));
 
+  // Determine headers based on available fields
+  const baseHeaders = ['id', 'query', 'response'];
+  const optionalHeaders = ['dietary_restriction', 'success', 'error', 'trace_id', 'query_id'];
+  const availableHeaders = optionalHeaders.filter(header => 
+    recipesWithOpenCodes.some(recipe => recipe[header as keyof Recipe] !== undefined)
+  );
+  const headers = [...baseHeaders, ...availableHeaders, 'open_codes'];
+
   // Convert to CSV format
-  const headers = ['id', 'query', 'response', 'open_codes'];
   const csvContent = [
     headers.join(','),
-    ...recipesWithOpenCodes.map(recipe => [
-      `"${recipe.id}"`,
-      `"${recipe.query.replace(/"/g, '""')}"`,
-      `"${recipe.response.replace(/"/g, '""')}"`,
-      `"${recipe.open_codes.replace(/"/g, '""')}"`
-    ].join(','))
+    ...recipesWithOpenCodes.map(recipe => 
+      headers.map(header => {
+        const value = header === 'open_codes' 
+          ? recipe.open_codes 
+          : recipe[header as keyof Recipe] || '';
+        return `"${String(value).replace(/"/g, '""')}"`;
+      }).join(',')
+    )
   ].join('\n');
 
   // Create and download file

@@ -1,0 +1,442 @@
+[
+  {
+    "trace_id": "13_11",
+    "query": "Trying to eat more vegetarian stuff\u2014got any easy dinner recipes that don\u2019t take forever?",
+    "dietary_restriction": "vegetarian",
+    "response": "## Quick and Flavorful Yaki Udon with Vegetables\n\nSavor a speedy and satisfying vegetarian Yaki Udon stir-fry, packed with colorful veggies and tender udon noodles, all tossed in a savory soy-based sa...",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "reasoning": "The recipe is clearly vegetarian, containing only plant-based ingredients such as udon noodles, vegetables, garlic, ginger, soy sauce (or tamari), mirin, chili flakes, and sesame seeds. These ingredients conform to a vegetarian diet, and the method of stir-frying vegetables and noodles is appropriate and does not introduce any animal products. The recipe avoids animal-derived ingredients like meat, fish, dairy, or eggs, meeting the vegetarian restriction effectively. Therefore, the recipe adheres to the specified dietary restriction.",
+    "success": true
+  },
+  {
+    "trace_id": "40_14",
+    "query": "Looking for some easy sugar-free snacks to keep me going during work, any ideas?",
+    "dietary_restriction": "sugar-free",
+    "response": "## Edamame with Yuzu Salt\n\nA simple, refreshing, and naturally sugar-free snack that's packed with protein and has a zesty citrus twist from yuzu!\n\n### Ingredients\n- 200g frozen edamame pods (in shell...",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "reasoning": "The recipe consists of cooked edamame seasoned with yuzu kosho or yuzu zest and chili powder, plus sea salt. All ingredients are naturally sugar-free, and the cooking method involves boiling, which does not introduce any sugars. The seasoning options are appropriate and do not contain added sugars, making the snack compliant with a sugar-free restriction. The seasoning provides flavor without the need for added sugars, and the recipe relies on natural flavors and minimal ingredients. Therefore, both the ingredients and preparation method adhere to the sugar-free dietary restriction.",
+    "success": true
+  },
+  {
+    "trace_id": "11_8",
+    "query": "Looking for some easy dairy-free dinner ideas, anything tasty and quick?",
+    "dietary_restriction": "dairy-free",
+    "response": "## Teriyaki Salmon with Garlic Bok Choy (Dairy-Free & Quick)\n\nSavor a quick and delicious dairy-free dinner featuring perfectly glazed teriyaki salmon paired with garlicky stir-fried bok choy \u2013 a heal...",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "reasoning": "The recipe for Teriyaki Salmon with Garlic Bok Choy adheres to the dairy-free dietary restriction. None of the ingredients listed, including soy sauce, mirin, sake, sugar, garlic, ginger, vegetable oil, and bok choy, contain dairy products. The cooking methods involve stir-frying and glazing with sauce, which are appropriate and do not introduce dairy. The use of soy sauce or tamari, assuming gluten-free tamari is used if needed, is compatible with dairy-free requirements. Overall, the recipe maintains an appropriate ingredient list and preparation methods that do not violate the dairy-free restriction.",
+    "success": true
+  },
+  {
+    "trace_id": "13_10",
+    "query": "Trying to eat more vegetarian stuff\u2014got any easy dinner recipes that don\u2019t take forever?",
+    "dietary_restriction": "vegetarian",
+    "response": "## Quick and Tasty Vegetarian Japanese Curry\n\nExperience a comforting and flavorful Japanese curry made entirely without meat but packed with tender vegetables and rich spices \u2014 ready in under 30 minu...",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "reasoning": "The recipe is clearly vegetarian, containing only plant-based ingredients such as vegetables, tofu, vegetable broth, and rice, with no meat, fish, or seafood. The use of vegetable oil, vegetables, tofu, and vegetarian-friendly curry roux aligns with vegetarian dietary restrictions. The instructions involve standard cooking methods for a vegetable curry, without any animal-derived products or techniques that violate vegetarian principles. The optional garnishes, such as green onions and pickled ginger, are vegetarian-friendly. Therefore, the recipe adheres properly to the vegetarian restriction and can be considered a compliant, quick, and wholesome vegetarian dinner option.",
+    "success": true
+  },
+  {
+    "trace_id": "6_6",
+    "query": "Looking for some easy gluten free dinner ideas that my whole family will actually enjoy!",
+    "dietary_restriction": "gluten-free",
+    "response": "## Gluten-Free Chicken Katsu Curry\n\nDive into a comforting and crispy Japanese classic\u2014chicken katsu perfectly fried and topped with a rich, flavorful gluten-free curry sauce that your whole family wi...",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "reasoning": "The recipe for Gluten-Free Chicken Katsu Curry adheres to the gluten-free dietary restriction. It uses gluten-free all-purpose flour, gluten-free panko breadcrumbs, gluten-free soy sauce (tamari), and gluten-free curry roux blocks, all of which are appropriate ingredients for a gluten-free diet. The cooking methods\u2014bread coating, frying, and simmering\u2014do not introduce gluten, provided the ingredients are certified gluten-free. There are no problematic ingredients such as wheat-based products or cross-contamination concerns indicated. The recipe overall aligns well with gluten-free guidelines and includes suitable ingredients and preparation steps.",
+    "success": true
+  },
+  {
+    "trace_id": "2_8",
+    "query": "Hey, I'm vegan and need some easy weeknight dinner ideas that aren\u2019t boring. Got anything?",
+    "dietary_restriction": "vegan",
+    "response": "## Spicy Miso Ramen with Tofu and Vegetables (Vegan)\n\nDive into a comforting bowl of spicy miso ramen loaded with silken tofu and vibrant vegetables, perfect for a quick and exciting weeknight vegan d...",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "reasoning": "The recipe is fully vegan, as it contains plant-based ingredients only: ramen noodles (assuming egg-free, which is specified), tofu, vegetables, vegetable broth, miso paste, chili paste, soy or tamari, garlic, ginger, spring onions, sesame seeds, and cilantro. All ingredients are plant-based, and no animal products are included. The cooking methods\u2014pan-frying tofu, making broth, boiling noodles, and assembling\u2014are appropriate for a vegan diet. The use of miso, tofu, and vegetables aligns well with vegan dietary restrictions. Therefore, the recipe adheres properly to the vegan restriction with appropriate ingredients and methods.",
+    "success": true
+  },
+  {
+    "trace_id": "38_6",
+    "query": "Hey, can you suggest some easy low-carb meals I can make for dinner?",
+    "dietary_restriction": "low-carb",
+    "response": "## Spinach and Mushroom Okonomiyaki: Low-Carb Japanese Savory Pancake\n\nThis low-carb version of the classic Japanese okonomiyaki uses nutrient-packed spinach and mushrooms for a delicious, filling din...",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "reasoning": "The recipe is labeled as a low-carb Japanese savory pancake substituting traditional ingredients with low-carb alternatives such as almond flour and grated zucchini instead of nagaimo, which is appropriate for a low-carb diet. The inclusion of eggs, vegetables like spinach and mushrooms, and low-sugar sauces further supports low carbohydrate content. The cooking method of pan-frying the batter is suitable, and the ingredients used do not introduce significant carbs or violate typical low-carb guidelines. The optional garnishes and toppings are also appropriate and do not affect the low-carb restriction. Overall, the recipe adheres well to low-carb dietary restrictions both in ingredients and preparation methods.",
+    "success": true
+  },
+  {
+    "trace_id": "17_10",
+    "query": "Looking for some easy paleo-friendly meals I can whip up after work\u2014got any favorites?",
+    "dietary_restriction": "paleo",
+    "response": "## Paleo-Inspired Chicken Teriyaki with Cauliflower Rice\n\nExperience a vibrant and paleo-friendly twist on traditional Japanese teriyaki that\u2019s quick to prepare, featuring juicy grilled chicken glazed...",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "reasoning": "The recipe adheres to paleo dietary restrictions by using compliant ingredients such as chicken breasts, coconut aminos as a soy sauce alternative, coconut nectar or pure maple syrup, fresh ginger, garlic, coconut oil, cauliflower for rice, and optional herbs and seeds. The cooking methods described involve stir-frying and grilling without any processed or non-paleo ingredients. The inclusion of coconut aminos, coconut nectar, and fresh produce aligns with paleo guidelines, and avoiding grains, legumes, dairy, and processed sugars is maintained. The recipe is straightforward, nutritious, and fits the paleo profile well, with all ingredients matching paleo restrictions and appropriate preparation methods. Therefore, it is suitable and fully compliant with paleo guidelines.",
+    "success": true
+  },
+  {
+    "trace_id": "10_12",
+    "query": "Got any easy dairy-free dinner recipes? I\u2019m trying to avoid milk and cheese.",
+    "dietary_restriction": "dairy-free",
+    "response": "## Teriyaki Salmon Bento Bowl (Dairy-Free & Deliciously Easy)\n\nExperience the perfect harmony of sweet and savory with this simple Teriyaki Salmon Bento Bowl, packed with tender salmon glazed in a dai...",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "reasoning": "The recipe is dairy-free as it avoids milk, cheese, and other dairy products, aligning with the specified restriction. The ingredients used, such as soy sauce (or tamari), mirin, sake (or water), and vegetables, contain no dairy. The cooking method involves skillet-cooking and glazing with a sauce that is free of dairy ingredients. The note about using soy sauce or tamari ensures gluten-free options are available, and no dairy-based sauces or ingredients are present. Overall, the recipe adheres to the dairy-free restriction appropriately, with clear ingredients and methods that avoid dairy components.",
+    "success": true
+  },
+  {
+    "trace_id": "14_7",
+    "query": "Trying to eat more vegetarian meals\u2014got any easy dinner recipes that aren\u2019t just salad?",
+    "dietary_restriction": "vegetarian",
+    "response": "## Miso-Glazed Eggplant with Steamed Rice and Saut\u00e9ed Spinach\n\nExperience a comforting and savory vegetarian Japanese dinner featuring tender eggplant glazed with a sweet and umami-packed miso sauce, ...",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "reasoning": "The recipe is labeled as vegetarian and includes plant-based ingredients such as Japanese eggplant, spinach, rice, miso paste, ginger, garlic, sesame oil, soy sauce/tamari, and sesame seeds. All ingredients are plant-based, with no inclusion of meat, fish, or animal-derived products. The cooking methods\u2014saut\u00e9ing, glazing, and steaming rice\u2014are appropriate and do not violate vegetarian dietary restrictions. The mention of soy sauce or tamari is suitable for vegetarians, assuming no animal-derived additives are present. The recipe aligns well with vegetarian standards and is comprehensive in preparation instructions. Therefore, it adheres properly to the vegetarian restriction.",
+    "success": true
+  },
+  {
+    "trace_id": "7_7",
+    "query": "trying to stick to keto, any easy quick dinner ideas that won\u2019t mess with my macros?",
+    "dietary_restriction": "keto",
+    "response": "## Keto-Friendly Chicken Katsu Salad\n\nCrunchy, juicy chicken katsu meets fresh, crisp greens in this low-carb Japanese-inspired salad that's perfect for a quick and keto-friendly dinner!\n\n### Ingredie...",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "reasoning": "The recipe adheres well to the keto dietary restriction. It uses almond flour and Parmesan cheese for breading instead of wheat-based components, and coconut or avocado oil for frying, which are keto-compatible fats. The sauce ingredients include sugar-free ketchup, soy or tamari (which can be gluten-free and suitable for keto if carb counts are checked), and erythritol, all appropriate for a keto diet. The vegetable components (greens, cucumber, cabbage, green onions) are low in carbs and suitable for keto. The overall preparation is straightforward and aligns with keto macros, with careful ingredient choices to maintain low net carbohydrate content. Therefore, the recipe clearly meets the keto criteria.",
+    "success": true
+  },
+  {
+    "trace_id": "15_13",
+    "query": "Looking for a simple vegetarian dinner recipe that\u2019s filling and not too complicated\u2014got any ideas?",
+    "dietary_restriction": "vegetarian",
+    "response": "## Hearty Miso Eggplant Donburi\n\nA simple, comforting vegetarian Japanese rice bowl featuring tender miso-glazed eggplant that's satisfyingly filling and easy to prepare\u2014a perfect cozy dinner!\n\n### In...",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "reasoning": "The recipe for Hearty Miso Eggplant Donburi adheres to the vegetarian dietary restriction as it contains no meat, fish, or animal-derived ingredients other than plant-based items. All ingredients listed\u2014eggplant, rice, miso paste, soy sauce (or tamari), sesame oil, garlic, ginger, green onions, sesame seeds, nori, and pickled ginger\u2014are plant-based or plant-derived, satisfying vegetarian requirements. The cooking methods involve saut\u00e9ing, simmering, and assembling over rice, which are all appropriate. The dish is described as filling and simple, aligning with the request. Since the recipe contains no animal products and employs straightforward preparation steps, it fully complies with vegetarian standards. No ingredients or preparation methods violate the restriction. Therefore, the response properly adheres to the vegetarian dietary restriction.",
+    "success": true
+  },
+  {
+    "trace_id": "7_15",
+    "query": "trying to stick to keto, any easy quick dinner ideas that won\u2019t mess with my macros?",
+    "dietary_restriction": "keto",
+    "response": "## Keto-Friendly Chicken Teriyaki Lettuce Wraps\n\nA quick, flavorful, and keto-approved twist on classic teriyaki chicken, wrapped in crisp lettuce leaves for a low-carb, satisfying dinner that won\u2019t m...",
+    "true_label": "PASS",
+    "predicted_label": "UNKNOWN",
+    "reasoning": "The recipe for Keto-Friendly Chicken Teriyaki Lettuce Wraps adheres well to the keto dietary restriction. It uses chicken breast and lettuce as primary ingredients, both suitable for a low-carb, high-protein, and moderate-fat diet. The use of coconut or avocado oil provides healthy fats. The sauce includes soy sauce or tamari, which are acceptable options \u2014 tamari being gluten-free, beneficial for those avoiding gluten. The sweetener specified is erythritol or another keto-friendly sweetener, ensuring low net carbs. The optional xanthan gum for thickening does not add carbs and is compatible with keto. The garnish of green onions and sesame seeds is permissible in moderation. The preparation method and ingredients do not introduce excessive carbs or violate keto guidelines. Overall, the recipe maintains appropriate ingredients and methods for a keto diet, so it is a PASS.",
+    "success": true
+  },
+  {
+    "trace_id": "10_13",
+    "query": "Got any easy dairy-free dinner recipes? I\u2019m trying to avoid milk and cheese.",
+    "dietary_restriction": "dairy-free",
+    "response": "## Miso Glazed Salmon with Steamed Vegetables (Dairy-Free)\n\nExperience a luscious, savory-sweet miso-glazed salmon that's perfectly tender and pairs beautifully with light steamed vegetables for a who...",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "reasoning": "The recipe claims to be dairy-free and includes ingredients such as salmon, miso paste, mirin, sake (or water), maple syrup or honey, soy sauce or tamari, steamed vegetables, sesame oil, sesame seeds, and spring onion. All these ingredients are inherently dairy-free: no milk, cheese, or other dairy products are present or used in the preparation methods. The cooking methods\u2014baking and steaming\u2014do not introduce dairy or violate dairy-free restrictions. Although soy sauce or tamari is used, these are typically free of dairy ingredients, and the recipe specifies using gluten-free tamari if needed. Sesame oil and sesame seeds are plant-based and suitable. The overall dish adheres to the dairy-free restriction without including any dairy ingredients or methods that could introduce dairy contamination. Therefore, the recipe clearly complies with the dairy-free dietary restriction.",
+    "success": true
+  },
+  {
+    "trace_id": "28_8",
+    "query": "Looking for some easy pescatarian lunch recipes, nothing too fancy just good and quick.",
+    "dietary_restriction": "pescatarian",
+    "response": "## Simple Teriyaki Salmon Rice Bowl\n\nThis quick and easy Teriyaki Salmon Rice Bowl offers a deliciously sweet and savory glaze over tender salmon, paired with fresh veggies and fluffy rice \u2014 perfect f...",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "reasoning": "The recipe is labeled as pescatarian and features salmon, which is appropriate. The ingredients like soy sauce (or tamari), mirin, sake, rice, vegetables, and sesame seeds are all compatible with a pescatarian diet. The cooking method\u2014pan-searing and glazing the salmon\u2014does not violate pescatarian restrictions. Although the recipe uses soy sauce, which is acceptable for pescatarians, it should ideally specify gluten-free tamari if gluten intolerance is a concern, but it is not a violation per se. The inclusion of pickled ginger, green onions, and vegetables adds to the recipe\u2019s healthfulness and adherence to a simple, quick meal. There are no ingredients that violate pescatarian rules, and the preparation methods are appropriate. Therefore, the recipe conforms to pescatarian dietary restrictions.",
+    "success": true
+  },
+  {
+    "trace_id": "30_14",
+    "query": "Trying to stick to pescatarian meals this week\u2014got any easy dinner ideas with fish or seafood?",
+    "dietary_restriction": "pescatarian",
+    "response": "## Miso-Glazed Black Cod with Steamed Rice and Saut\u00e9ed Spinach\n\nDive into the rich, buttery flavors of black cod enhanced with a savory-sweet miso glaze, paired perfectly with fluffy steamed rice and ...",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "reasoning": "The recipe features black cod, which is appropriate for a pescatarian diet, and includes ingredients such as miso paste, mirin, sake, rice, spinach, garlic, soy sauce, and sesame oil, all of which are compatible with pescatarian restrictions. The preparation methods\u2014marinating, baking, steaming, and saut\u00e9ing\u2014are typical and acceptable. There are no meat, poultry, or non-fish animal products involved, and all ingredients are suitable for a pescatarian diet. The recipe also avoids non-permitted ingredients like meat, poultry, shellfish (other than fish), or animal-derived broths, ensuring adherence to pescatarian guidelines. The inclusion of fish (black cod), rice, and vegetables makes it a balanced pescatarian meal. Therefore, the response properly adheres to the dietary restriction.",
+    "success": true
+  },
+  {
+    "trace_id": "36_9",
+    "query": "Looking for some easy low-sodium dinner ideas, got any recipes?",
+    "dietary_restriction": "low-sodium",
+    "response": "## Miso-Glazed Eggplant with Steamed Rice and Spinach\n\nSavor a deliciously tender miso-glazed eggplant that\u2019s naturally low in sodium yet bursting with savory umami flavor, paired with simple steamed ...",
+    "true_label": "FAIL",
+    "predicted_label": "FAIL",
+    "reasoning": "The recipe claims to be low-sodium, but it relies heavily on miso paste, which is inherently high in sodium even if a low-sodium variety is used. Although the instructions specify looking for low-sodium miso, the 2 tablespoons used in the glaze likely still contribute a significant sodium amount, making it difficult to consider this dish genuinely low-sodium without precise sodium content. Additionally, the use of sesame oil, honey or maple syrup, and sake/mirin does not add significant sodium, but the core flavor profile depends on miso, which is problematic for a strict low-sodium diet. The recipe does include steamed rice and saut\u00e9ed spinach, which are low in sodium, but the primary flavoring ingredient prevents the dish from being truly low-sodium overall. Therefore, because the main ingredient (miso) maintains high sodium levels regardless of adjustments, the recipe does not fully adhere to the low-sodium restriction.",
+    "success": true
+  },
+  {
+    "trace_id": "15_12",
+    "query": "Looking for a simple vegetarian dinner recipe that\u2019s filling and not too complicated\u2014got any ideas?",
+    "dietary_restriction": "vegetarian",
+    "response": "## Veggie-Loaded Japanese Curry Rice\n\nDive into a hearty and comforting bowl of Japanese curry rice, brimming with tender vegetables and rich, flavorful sauce\u2014perfect for a filling vegetarian dinner t...",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "reasoning": "The recipe is a vegetarian dish that primarily uses vegetables (onion, carrot, potato, green beans), vegetable broth, tofu, and Japanese curry roux. All these ingredients are suitable for a vegetarian diet, assuming the curry roux is clearly labeled as vegetarian (which the description states it is). The cooking method involves saut\u00e9ing and simmering vegetables, then dissolving the curry roux to thicken the sauce, which is appropriate and does not violate vegetarian principles. The inclusion of tofu adds protein, aligning well with a filling meal. The optional coconut milk is vegetarian (and vegan), adding creaminess without animal products. The recipe avoids any meat, fish, or animal-derived ingredients, and the instructions involve appropriate preparation methods compatible with a vegetarian diet. Overall, the recipe aligns properly with the vegetarian restriction and involves no ingredients or methods that violate this rule.",
+    "success": true
+  },
+  {
+    "trace_id": "7_2",
+    "query": "trying to stick to keto, any easy quick dinner ideas that won\u2019t mess with my macros?",
+    "dietary_restriction": "keto",
+    "response": "## Keto-Friendly Salmon Teriyaki with Shirataki Noodles\n\nA quick and delicious Japanese-inspired dinner that\u2019s low-carb, rich in healthy fats, and perfect for keeping your keto macros on track\u2014sweet a...",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "reasoning": "The recipe is intended to be keto-friendly, utilizing ingredients such as salmon, avocado or sesame oil, shirataki noodles, tamari, erythritol, ginger, and garlic, all of which are appropriate for a ketogenic diet. The use of shirataki noodles, which are very low in carbs, supports the macro goals. The sauce combines tamari and erythritol, which are suitable for keto as they avoid added sugars, and the overall cooking method does not introduce excessive carbs or non-keto ingredients. The inclusion of healthy fats from the oil and moderation on the carbohydrate sources appears well-aligned with keto guidelines. Therefore, this recipe adheres to the ketogenic restriction effectively.",
+    "success": true
+  },
+  {
+    "trace_id": "33_8",
+    "query": "Hey, I\u2019m doing Whole30 and could use some easy dinner ideas that won\u2019t mess up the plan. Got any good recipes?",
+    "dietary_restriction": "whole30",
+    "response": "## Whole30 Compliant Ginger Miso Glazed Salmon with Saut\u00e9ed Greens\n\nThis vibrant and easy-to-make salmon dish features a tangy, Whole30-friendly ginger miso glaze paired with quickly saut\u00e9ed leafy gre...",
+    "true_label": "FAIL",
+    "predicted_label": "FAIL",
+    "reasoning": "The recipe claims to be Whole30 compliant, but contains white miso paste, which is traditionally made from fermented soybeans and often contains added grains or sugars unless explicitly labeled as pure and compliant. Even if the miso used is marked as Whole30-approved, most typical miso pastes are not compliant due to soy and fermentation processes. The recipe also includes toasted sesame seeds, which are generally acceptable, but their toast processing may involve heat above 118\u00b0F, potentially conflicting with strict raw food guidelines, though this is often acceptable for Whole30. Other ingredients such as coconut aminos, fresh ginger, garlic, avocado or olive oil, and lemon juice are compliant. The cooking instructions and methods do not violate Whole30 rules. However, the primary issue is the inclusion of miso paste, which makes the dish non-compliant. Therefore, despite efforts to adhere to the plan, the use of miso disqualifies this recipe from being truly Whole30 compliant.",
+    "success": true
+  },
+  {
+    "trace_id": "35_10",
+    "query": "Hey, can you suggest some tasty low-sodium dinner ideas? Trying to keep my salt intake down.",
+    "dietary_restriction": "low-sodium",
+    "response": "## Miso-Glazed Grilled Salmon with Steamed Vegetables (Low-Sodium)\n\nEnjoy a flavorful Japanese-inspired dinner featuring tender grilled salmon glazed with a subtly sweet, low-sodium miso sauce, paired...",
+    "true_label": "FAIL",
+    "predicted_label": "PASS",
+    "reasoning": "The recipe employs low-sodium white miso paste and uses minimal added salt, which aligns with low-sodium dietary goals. The use of fresh vegetables steamed without salt or high-sodium seasonings further supports the low-sodium restriction. The cooking methods\u2014grilling or baking the salmon and steaming vegetables\u2014do not introduce additional sodium. The inclusion of black pepper and toasted sesame seeds enhances flavor without increasing salt content. However, the use of mirin, sake, and honey introduces some natural sugars and trace amounts of sodium, but these are generally low and acceptable within a low-sodium diet if used in moderation. Overall, the recipe avoids high-sodium ingredients and relies on flavorful, low-sodium components, making it appropriate for someone aiming to reduce salt intake. The suggestion of adding shiso or yuzu for flavor boosts also aligns with low-sodium and health-conscious eating. Therefore, the recipe adheres well to the low-sodium restriction and warrants a PASS.",
+    "success": true
+  },
+  {
+    "trace_id": "23_12",
+    "query": "Looking for some easy nut-free snack ideas, since I have a sensitivity. Any good suggestions?",
+    "dietary_restriction": "nut-free",
+    "response": "## Crispy Japanese Rice Crackers (Senbei) \u2013 Nut-Free Snack\n\nIndulge in the crunchy, savory delight of traditional Japanese senbei, perfectly seasoned and completely nut-free\u2014ideal for a light and sati...",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "reasoning": "The recipe for Crispy Japanese Rice Crackers (Senbei) is intended to be nut-free; it uses rice, soy sauce, mirin, sugar, and optional sesame seeds. The main concern is the potential presence of sesame seeds, which are listed as optional and can be omitted for someone with a sesame sensitivity or seed allergy. The ingredients and cooking method do not involve nuts or nut derivatives, and the preparation avoids common nut ingredients. The inclusion of sesame seeds is optional and, if excluded, the entire recipe remains nut-free. The method does not involve any nut-based ingredients or cross-contamination risk, assuming proper handling and no sesame seeds are added by the user. Therefore, with the optional sesame seeds omitted, the recipe adheres to the nut-free restriction. Given that the user is sensitive, ideally, they would be advised to skip sesame seeds entirely or ensure they are not included. Overall, the recipe is suitable for a nut-free diet when sesame seeds are omitted, and no other nut-containing ingredients are present.",
+    "success": true
+  },
+  {
+    "trace_id": "35_2",
+    "query": "Hey, can you suggest some tasty low-sodium dinner ideas? Trying to keep my salt intake down.",
+    "dietary_restriction": "low-sodium",
+    "response": "## Miso-Glazed Eggplant with Steamed Green Beans and Brown Rice (Low-Sodium)\n\nDiscover a vibrant and healthy Japanese-inspired dinner featuring tender miso-glazed eggplant paired with lightly steamed ...",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "reasoning": "The recipe aims to be low-sodium by using low-sodium or reduced-sodium white miso paste and suggesting water or sake as diluents, which helps to limit salt content. The inclusion of green beans with a small amount of toasted sesame oil and sesame seeds is also appropriate since these ingredients are naturally low in sodium, especially with minimal added oil and seasoning. The core preparation involves steaming and light glazing, avoiding high-sodium seasonings like soy sauce or regular miso, further supporting low-sodium goals. Although miso paste naturally contains sodium, using a low-sodium version significantly reduces it compared to standard miso, aligning with low-sodium dietary restrictions as long as the miso used is appropriately labeled. The rest of the dish\u2014brown rice and fresh vegetables\u2014is naturally low in sodium, and no other high-sodium ingredients are present. Overall, with the emphasis on low-sodium miso and minimal added salt or processed condiments, the recipe adheres properly to low-sodium dietary restrictions.",
+    "success": true
+  },
+  {
+    "trace_id": "36_12",
+    "query": "Looking for some easy low-sodium dinner ideas, got any recipes?",
+    "dietary_restriction": "low-sodium",
+    "response": "## Low-Sodium Miso-Glazed Salmon with Steamed Vegetables\n\nDelight in a heart-healthy and low-sodium Japanese-inspired dinner where perfectly glazed salmon meets vibrant steamed vegetables, creating a ...",
+    "true_label": "FAIL",
+    "predicted_label": "PASS",
+    "reasoning": "The recipe intends to be low-sodium by including low-sodium miso and emphasizing minimal salt use. However, miso paste, even when labeled low-sodium, still contains a notable amount of sodium, which can be problematic for a strict low-sodium diet. The addition of mirin, sake, honey, ginger, and garlic contributes minimal sodium. The use of steamed vegetables further supports the low-sodium goal, provided no additional salt or high-sodium seasonings are added. The method does not include added salt, and the cooking techniques avoid extra sodium-containing ingredients. Overall, considering that the miso may still have a relatively high sodium content, but the recipe minimizes additional salt and potentially uses low-sodium miso, it generally aligns with a low-sodium dietary restriction, especially if a truly low-sodium miso is used. Therefore, it adheres sufficiently to low-sodium guidelines, assuming the miso is low-sodium as noted.",
+    "success": true
+  },
+  {
+    "trace_id": "25_14",
+    "query": "Got any easy raw vegan lunch ideas? I\u2019m trying to keep things simple and fresh.",
+    "dietary_restriction": "raw vegan",
+    "response": "Japanese cuisine is wonderful for fresh and simple meals, but since you prefer raw vegan options, here's a light and refreshing Japanese-inspired raw vegan lunch idea you\u2019ll love.\n\n## Fresh Japanese-I...",
+    "true_label": "PASS",
+    "predicted_label": "UNKNOWN",
+    "reasoning": "The recipe uses spiralized zucchinis as a base and incorporates raw vegetables such as julienned carrots, cucumber, and diced avocado, all compliant with raw vegan guidelines. The dressing ingredients include raw tamari (a gluten-free soy sauce alternative suitable for raw vegan diets), toasted sesame oil, lemon juice, maple syrup, garlic, and ginger. While toasted sesame oil and toasted sesame seeds are technically processed at high temperatures and are generally controversial in strict raw vegan diets, many raw vegan protocols accept minimally processed oils and seeds. Considering common raw vegan standards, these ingredients are often deemed acceptable if not heated above 118\u00b0F. The recipe avoids heating, as it is prepared raw, further aligning with raw vegan practices. Additionally, garnishes like cilantro or shiso leaves add flavor without violating the diet. The method promotes no cooking, just tossing and dressing, which upholds raw vegan principles. Given this, the recipe primarily meets the criteria, with minor caveats about the sesame oil and seeds, which are often permissible in the raw vegan community when unheated. Therefore, overall, it adheres closely to a raw vegan diet.",
+    "success": true
+  },
+  {
+    "trace_id": "45_13",
+    "query": "Looking for some easy halal dinner recipes that my whole family will love, any ideas?",
+    "dietary_restriction": "halal",
+    "response": "## Chicken Teriyaki Donburi (Halal & Family-Friendly)\n\nDelight your family with this easy and juicy halal Chicken Teriyaki Donburi, a savory Japanese rice bowl bursting with sweet and tangy glazed chi...",
+    "true_label": "FAIL",
+    "predicted_label": "PASS",
+    "reasoning": "The recipe is labeled as halal and includes ingredients that can be compliant if properly sourced and certified, such as halal chicken, soy sauce, mirin, and sake. The chicken thighs are specified as halal, which is appropriate. Soy sauce can be halal-certified, making it permissible, although conventional soy sauce may contain alcohol derivatives. Mirin and sake are traditionally made from fermented rice and may contain alcohol; however, the recipe specifies 'halal-certified' mirin and suggests a substitution for sake, which is appropriate. The use of soy sauce ensures a savory flavor, consistent with halal dietary laws since fermentation does not violate halal requirements, provided it\u2019s certified. The cooking methods\u2014stir-frying and simmering\u2014are standard and suitable. There are no ingredients that violate halal restrictions such as pork, alcohol, or improperly slaughtered meats. The recipe also does not include haram ingredients like pork or non-halal gelatin. Therefore, as long as the soy sauce, mirin, and sake are verified halal-certified, the recipe adheres to halal dietary restrictions and is suitable for family consumption. It is a well-structured, flavorful dish that aligns with halal guidelines.",
+    "success": true
+  },
+  {
+    "trace_id": "35_6",
+    "query": "Hey, can you suggest some tasty low-sodium dinner ideas? Trying to keep my salt intake down.",
+    "dietary_restriction": "low-sodium",
+    "response": "## Miso-Glazed Saba (Mackerel) with Steamed Veggies (Low-Sodium)\n\nExperience a flavorful Japanese dinner without the salt overload \u2014 tender saba (mackerel) fillets glazed with a mild, homemade low-sod...",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "reasoning": "The recipe for Miso-Glazed Saba with Steamed Veggies claims to be low-sodium by using low-sodium or reduced-sodium miso paste, which is appropriate. The other ingredients, such as mirin, sake (or water), maple syrup, ginger, vegetables, and lemon, are naturally low in sodium or used in limited amounts. Steam cooking of vegetables avoids added salt, and garnishes like lemon wedges add flavor without sodium. However, the recipe still involves miso paste, which, even in low-sodium varieties, contains a substantial amount of sodium. The recipe does not specify the actual sodium content or whether the miso used is truly low-sodium, making it uncertain if overall sodium levels are sufficiently low to meet strict low-sodium dietary restrictions. The method itself\u2014using minimal seasoning, steaming vegetables, and offering lemon for flavor\u2014is consistent with low-sodium practices. Therefore, if low-sodium miso is genuinely used, the recipe likely adheres well to low-sodium guidelines, but due to potential variability and lack of explicit sodium info, this cannot be confirmed 100%.",
+    "success": true
+  },
+  {
+    "trace_id": "8_10",
+    "query": "Trying to stay keto\u2014got any easy dinner recipes that won\u2019t blow my carbs for the day?",
+    "dietary_restriction": "keto",
+    "response": "## Keto-Friendly Miso-Glazed Black Cod\n\nTreat yourself to a luscious, buttery black cod fillet glazed with a savory miso sauce that's rich in umami but low in carbs\u2014perfect for keeping your keto dinne...",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "reasoning": "The recipe is intended to be keto, aiming for low carb intake. It includes black cod, which is suitable because it's high in healthy fats and moderate in protein. The primary concern is the use of miso paste, which is often made from fermented soybeans and may contain added sugars; although the recipe specifies ensuring no added sugar, this should be verified as some miso varieties do contain small amounts of sugar. The recipe uses erythritol or another keto-friendly sweetener, which is appropriate. Sake and mirin are included as flavorings; sake generally contains minimal carbs, but mirin is sweet and typically has enough sugar to affect net carbs; the suggestion to substitute with water helps mitigate this. The addition of vegetables like spinach or bok choy is suitable for a keto diet, especially when lightly cooked or steamed without added carbs. The cooking methods\u2014baking and optional searing\u2014do not add carbs. Overall, if the miso paste used is confirmed to have no added sugars, the recipe adheres to keto guidelines. The ingredient choices and methods are aligned with keto restrictions, considering possible variations in miso. Therefore, this recipe PASSes as keto-compliant.",
+    "success": true
+  },
+  {
+    "trace_id": "32_2",
+    "query": "Trying to stick to Whole30 \u2014 got any easy weeknight dinner recipes that fit?",
+    "dietary_restriction": "whole30",
+    "response": "## Whole30 Chicken Teriyaki Stir-Fry (Whole30-Compliant & Grain-Free)\n\nSavor a wholesome, colorful chicken stir-fry infused with a tangy, naturally-sweetened Whole30 teriyaki sauce that\u2019s ready in und...",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "reasoning": "The recipe intends to be Whole30-compliant by using ingredients like chicken thighs, vegetables, coconut aminos, apple cider vinegar, date paste (which is acceptable if it contains no added sugar or sulfites), garlic, ginger, and arrowroot powder for thickening. These ingredients are generally permitted on Whole30. However, the inclusion of date paste or chopped dates is problematic since Whole30 typically prohibits dried fruit and natural sweeteners like date paste or honey. Additionally, the optional fish sauce, if used, may contain preservatives or additives not compliant with Whole30 unless confirmed to be Pure Fish Sauce without added sugars or sulfites. The use of arrowroot powder is acceptable as a thickener, but it should be used sparingly. The cooking method\u2014stir-frying with approved oils and fresh vegetables\u2014is consistent with Whole30 guidelines. Overall, aside from the questionable use of date paste or chopped dates, the recipe aligns well with Whole30 rules. Given that the main concern revolves around the natural sweetener, the recipe falls into a gray area. If the date paste is confirmed to be compliant (no added sugars, sulfites), then it is acceptable; otherwise, it violates the strict Whole30 restriction on added sugars and dried fruits.",
+    "success": true
+  },
+  {
+    "trace_id": "15_2",
+    "query": "Looking for a simple vegetarian dinner recipe that\u2019s filling and not too complicated\u2014got any ideas?",
+    "dietary_restriction": "vegetarian",
+    "response": "## Miso-Glazed Eggplant with Steamed Rice\n\nSavor tender, caramelized eggplant slices glazed with a rich miso sauce\u2014this simple and filling vegetarian dish is packed with umami and perfect for a comfor...",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "reasoning": "The recipe is a vegetarian dish featuring eggplant glazed with a miso-based sauce served with steamed rice, which aligns with vegetarian dietary restrictions. However, there are several ingredients that violate common dietary restrictions. The use of white miso paste and soy sauce or tamari introduces high sodium levels, which may be problematic for low-sodium diets. The inclusion of sake and mirin (both traditional rice wines) raises concerns if alcohol consumption is restricted, as some dietary restrictions exclude alcohol entirely, and these ingredients can contain residual alcohol or added sugars. Sugar is included in the glaze, which could be an issue for sugar-free or low-glycemic diets. Cooking methods involve pan-frying the eggplant, which can be acceptable, but it adds added fats and is not specified as raw, though that\u2019s not a strict restriction here. Overall, the main consideration is adherence to the vegetarian restriction, which is satisfied, but several ingredients (miso, soy sauce, mirin, sake, sugar) may violate other restrictive diets like low-sodium, sugar-free, or low-alcohol, depending on individual requirements. Since the query only specifies \u2018vegetarian,\u2019 these issues are not disqualifying, so the recipe adheres appropriately to the vegetarian restriction.",
+    "success": true
+  },
+  {
+    "trace_id": "35_9",
+    "query": "Hey, can you suggest some tasty low-sodium dinner ideas? Trying to keep my salt intake down.",
+    "dietary_restriction": "low-sodium",
+    "response": "## Miso Glazed Eggplant with Steamed Rice and Side Salad (Low Sodium)\n\nSavor the umami-rich flavors of miso glazed eggplant that's naturally low in sodium but packs a punch of taste, served with fluff...",
+    "true_label": "FAIL",
+    "predicted_label": "PASS",
+    "reasoning": "The recipe attempts to create a low-sodium dish by using low-sodium or reduced-sodium miso paste, which is appropriate. The inclusion of rice and a fresh vegetable side salad further supports a balanced, low-sodium meal. However, there are several concerns: the use of miso paste, even if labeled low-sodium, inherently contains significant sodium, making it challenging to keep the overall dish truly low-sodium unless very carefully managed. The recipe also includes honey and sesame oil, which are not sodium contributors, and uses rice vinegar and fresh vegetables in the salad, which are low in sodium. The method of roasting eggplant and preparing the salad does not introduce additional salt. The dressing contains honey, vinegar, and sesame oil, which do not add significant sodium, and the instructions suggest adjusting the miso to a low-sodium version, which is essential for compliance. Considering that low-sodium diets typically restrict even moderate sodium levels and that miso is inherently salty, this version could be acceptable if the miso used has truly low sodium content and is used sparingly. Overall, because the main dish relies heavily on miso as a flavor agent, which is naturally high in sodium, it does not fully meet strict low-sodium dietary standards unless the miso is verified to be very low sodium. Given the precaution and the note about choosing low-sodium miso, the recipe can be considered acceptable with careful ingredient selection.",
+    "success": true
+  },
+  {
+    "trace_id": "20_14",
+    "query": "Got any easy diabetic-friendly dinner recipes? Something low in sugar but tasty would be awesome.",
+    "dietary_restriction": "diabetic-friendly",
+    "response": "## Miso-Glazed Grilled Mackerel with Spinach Ohitashi\n\nSavor a deliciously savory and diabetic-friendly dinner with tender grilled mackerel glazed in umami-rich miso, paired with a refreshing spinach ...",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "reasoning": "The recipe features ingredients and preparation methods that align with a diabetic-friendly diet. It uses mackerel, a good source of omega-3 fatty acids, and pairs it with a spinach ohitashi salad, both of which are low in sugar and carbohydrates. The miso used is specified as white (shiro miso), which generally contains less sugar compared to darker miso varieties, and the inclusion of sake and low-sodium soy sauce are appropriate. The cooking method\u2014grilling the fish and blanched spinach\u2014is suitable and does not add unnecessary carbs or sugars. The recipe does not include added sugars or high-sugar ingredients, and the portion sizes are reasonable for controlling carbohydrate intake. Overall, this recipe adheres to diabetic-friendly guidelines by emphasizing low-sugar, minimally processed ingredients, and cooking methods that preserve nutritional integrity.",
+    "success": true
+  },
+  {
+    "trace_id": "25_8",
+    "query": "Got any easy raw vegan lunch ideas? I\u2019m trying to keep things simple and fresh.",
+    "dietary_restriction": "raw vegan",
+    "response": "I'm glad you're interested in fresh and simple meals! Although I specialize in Japanese or Japanese-inspired recipes, I can suggest a light and refreshing Japanese-inspired raw vegan lunch that is eas...",
+    "true_label": "FAIL",
+    "predicted_label": "PASS",
+    "reasoning": "The recipe is described as a raw vegan Japanese-inspired summer roll salad, which aligns with the dietary restriction of raw vegan. The ingredients used\u2014nori sheets, fresh vegetables (carrot, cucumber, bell pepper, avocado), herbs (cilantro, shiso or basil), sesame seeds, and daikon radish\u2014are all raw and plant-based. The dressing is made from tamari (a soy sauce generally suitable for a vegan diet if gluten-free), toasted sesame oil, rice vinegar, ginger, agave syrup, and lime juice. While most of these are plant-based and raw, the use of toasted sesame oil is problematic because it is typically processed with heating or roasting that exceeds the 118\u00b0F (48\u00b0C) threshold, violating raw vegan principles. Furthermore, the recipe suggests rolling and slicing the nori, which is raw and allowed. The presence of sesame seeds and herbs adds flavor without violating the raw vegan restriction. The optional ingredients like shredded daikon radish are also raw if fresh. Despite the dressing\u2019s sesame oil being technically roasted or toasted, this is a common ingredient in raw cuisine unless explicitly prepared otherwise, but strictly speaking, toasted sesame oil may not meet the 'raw' standard. Overall, since most ingredients are raw and plant-based and the preparation is raw, the recipe mostly adheres to the raw vegan restriction, with the minor caveat about toasted sesame oil. Therefore, the recipe can be considered compliant for most strict raw vegan diets, especially if a raw sesame oil is used or omitted.",
+    "success": true
+  },
+  {
+    "trace_id": "31_15",
+    "query": "Got any easy Whole30 lunch ideas? Trying to keep it simple but tasty.",
+    "dietary_restriction": "whole30",
+    "response": "## Simple Japanese-Inspired Chicken and Veggie Stir-Fry (Whole30 Friendly)\n\nA quick and flavorful Whole30-compliant Japanese-inspired chicken stir-fry that combines tender chicken with colorful vegeta...",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "reasoning": "The recipe is explicitly crafted to be compliant with Whole30 guidelines. It uses ingredients such as chicken, vegetables (carrot, zucchini, snap peas), garlic, ginger, coconut aminos (a Whole30-approved soy sauce alternative), coconut or avocado oil, and optional toasted sesame oil and green onions. All of these ingredients are permitted on Whole30. The cooking methods involve stir-frying with permissible oils and minimal added seasonings, avoiding prohibited items such as soy sauce (unless verified as compliant), sugar, grains, legumes, dairy, or processed foods. The inclusion of coconut aminos instead of soy sauce addresses potential non-compliance issues. Additional optional seasonings like red pepper flakes and sesame seeds are generally permitted on Whole30, provided they contain no added sugar or preservatives. Overall, the recipe aligns well with Whole30 restrictions; it is simple, balanced, and free of non-permissible ingredients. Therefore, it adheres properly to the Whole30 dietary restriction.",
+    "success": true
+  },
+  {
+    "trace_id": "7_14",
+    "query": "trying to stick to keto, any easy quick dinner ideas that won\u2019t mess with my macros?",
+    "dietary_restriction": "keto",
+    "response": "## Keto-Friendly Japanese Salmon Teriyaki Bowl\n\nSavor a quick and easy Japanese-inspired dinner that's packed with healthy fats and protein while keeping carbs low\u2014perfect for your keto macros!\n\n### I...",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "reasoning": "The recipe uses soy sauce (or coconut aminos) as a primary flavoring, which are keto-friendly options, and incorporates erythritol as a sweetener, suitable for keto. It includes healthy fats from avocado and sesame oil, with protein-rich salmon, and non-starchy vegetables like cabbage or cauliflower rice, aligning with keto macro targets. The cooking methods\u2014pan-frying and saut\u00e9ing\u2014do not violate any restrictions. The optional use of sake is minimal and can be omitted or substituted without impact. Overall, the ingredients and preparation are consistent with keto guidelines, and the dish provides appropriate macros with no ingredients that significantly elevate carbohydrate content. Therefore, this recipe adheres properly to keto dietary restrictions.",
+    "success": true
+  },
+  {
+    "trace_id": "21_15",
+    "query": "Hey, can you suggest some easy diabetic-friendly lunch ideas that don\u2019t spike blood sugar?",
+    "dietary_restriction": "diabetic-friendly",
+    "response": "## Salmon Teriyaki bowl with Steamed Vegetables (Diabetic-Friendly)\n\nEnjoy a flavorful, low-glycemic lunch featuring tender grilled salmon glazed with a light teriyaki sauce, served over a bed of caul...",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "reasoning": "The recipe employs ingredients and a preparation method consistent with diabetic-friendly guidelines. It uses salmon, which provides high-quality protein with minimal impact on blood sugar levels. The sauce is made with low-sodium soy or tamari and a small amount of mirin, with a suggested substitute (water and stevia) to reduce carbohydrate content; the overall marinade is light and unlikely to cause blood sugar spikes when used in moderation. The dish includes cauliflower rice instead of traditional grains, providing a low-glycemic, fiber-rich base that supports blood sugar regulation. Steamed vegetables like broccoli, carrots, and snap peas are appropriate, as they are generally low to moderate in glycemic impact and high in fiber. The cooking methods avoid added refined sugars or processed ingredients, favoring fresh and minimally processed components. The meal balances protein with fiber and healthy fats, making it suitable for diabetic management. Therefore, the recipe adheres to diabetic-friendly principles, focusing on controlling glycemic response while providing nutritional balance.",
+    "success": true
+  },
+  {
+    "trace_id": "30_9",
+    "query": "Trying to stick to pescatarian meals this week\u2014got any easy dinner ideas with fish or seafood?",
+    "dietary_restriction": "pescatarian",
+    "response": "## Teriyaki Glazed Salmon with Soba Noodle Salad\n\nEnjoy a vibrant pescatarian Japanese dinner featuring tender salmon glazed in a sweet and savory teriyaki sauce, paired with a refreshing soba noodle ...",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "reasoning": "The recipe for Teriyaki Glazed Salmon with Soba Noodle Salad adheres to the pescatarian dietary restriction, as it includes only fish (salmon) and seafood along with plant-based ingredients. The ingredients used\u2014salmon, soy/tamari, mirin, sake, vegetables, noodles, sesame seeds, and seasonings\u2014are all pescatarian-friendly. The cooking methods involve pan-searing and mixing, which do not violate any dietary guidelines. The use of gluten-free soba noodles (assuming they are gluten-free, as traditional soba contains wheat, but many brands now offer gluten-free versions) is appropriate for a pescatarian diet, and the recipe provides suitable plant-based accompaniments. As there are no animal products other than fish or seafood, and no ingredients derived from meat or non-pescatarian animal products, this recipe conforms well to the pescatarian restriction. The optional substitutions (tamari, water, etc.) also support compliance. Therefore, the recipe properly adheres to the pescatarian dietary restriction.",
+    "success": true
+  },
+  {
+    "trace_id": "16_12",
+    "query": "Got any quick paleo-friendly dinner ideas? Trying to keep it clean but tasty tonight.",
+    "dietary_restriction": "paleo",
+    "response": "## Paleo-Inspired Chicken Teriyaki Lettuce Wraps\n\nEnjoy a clean and tasty paleo-friendly dinner with these juicy chicken teriyaki lettuce wraps that balance savory, sweet, and fresh flavors\u2014perfect fo...",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "reasoning": "The recipe claims to be paleo-friendly and the described ingredients align generally with paleo guidelines by avoiding grains, processed sugars (using honey or maple syrup), and dairy. Coconut aminos are a paleo soy sauce alternative, and fresh produce like lettuce, carrots, cucumber, and cilantro are appropriate. The primary concern is the inclusion of rice vinegar, which is derived from fermented rice. While most paleo guidelines permit fermented non-grain items, some strict paleo adherents avoid all fermented products that originate from grains or contain residual grains, including rice vinegar. Additionally, the optional sesame oil and sesame seeds are considered acceptable in moderation, though some strict paleo diets avoid seed oils. The arrowroot starch is optional; if used, it is a natural, paleo-friendly thickener. Overall, the recipe adheres closely to paleo principles, and the ingredients are appropriate for a paleo diet, with minimal ambiguities or violations. Therefore, it qualifies as paleo with reasonable consideration.",
+    "success": true
+  },
+  {
+    "trace_id": "36_1",
+    "query": "Looking for some easy low-sodium dinner ideas, got any recipes?",
+    "dietary_restriction": "low-sodium",
+    "response": "## Grilled Miso-Glazed Salmon with Steamed Vegetables\n\nThis easy low-sodium dinner features tender, flavorful grilled salmon glazed with a homemade low-sodium miso sauce, paired with fresh steamed veg...",
+    "true_label": "FAIL",
+    "predicted_label": "FAIL",
+    "reasoning": "The recipe claims to be low-sodium by using low-sodium miso paste, but the inclusion of standard miso paste (even if labeled low-sodium), rice vinegar, maple syrup or honey, sesame oil, and garlic adds sodium content. Miso paste, even in low-sodium varieties, still contains a significant amount of sodium, which may not meet strict low-sodium guidelines. Additionally, the recipe involves marinating the salmon in a miso-based glaze, which can increase overall sodium exposure. The steaming of vegetables does not introduce sodium. However, since the key flavoring component (miso) remains inherently salty, the dish could easily be high in sodium unless specifically using a true low-sodium miso and carefully controlling other ingredients. Therefore, due to the reliance on miso and other ingredients with potential sodium, the recipe does not fully adhere to a strict low-sodium restriction.",
+    "success": true
+  },
+  {
+    "trace_id": "21_9",
+    "query": "Hey, can you suggest some easy diabetic-friendly lunch ideas that don\u2019t spike blood sugar?",
+    "dietary_restriction": "diabetic-friendly",
+    "response": "## Salmon Teriyaki Bowls with Cauliflower Rice (Diabetic-Friendly)\n\nA delicious and healthy Japanese-inspired lunch bowl featuring tender salmon glazed in a low-sugar teriyaki sauce, served over fluff...",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "reasoning": "The recipe uses salmon, cauliflower rice, low sodium soy sauce, erythritol, and fresh vegetables, all appropriate for a diabetic-friendly diet. The soy sauce is specified as low sodium, reducing sodium intake. Erythritol is a low-glycemic sweetener suitable for blood sugar control. The use of cauliflower rice replaces high-carb grains, helping manage blood glucose levels. The vegetables are non-starchy and contribute fiber without causing significant blood sugar spikes. The cooking methods, such as stir-frying and steaming, are appropriate. The addition of pickled ginger and toppings like sesame seeds and spring onions are also suitable. Overall, the ingredients and methods adhere to diabetic-friendly guidelines, and there are no ingredients that would cause blood sugar spikes. Therefore, this recipe properly follows the specified dietary restriction.",
+    "success": true
+  },
+  {
+    "trace_id": "6_10",
+    "query": "Looking for some easy gluten free dinner ideas that my whole family will actually enjoy!",
+    "dietary_restriction": "gluten-free",
+    "response": "## Teriyaki Salmon Bowls with Steamed Vegetables (Gluten-Free)\n\nDive into a family-friendly, gluten-free dinner featuring tender teriyaki-glazed salmon served over fluffy rice and vibrant steamed vege...",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "reasoning": "The recipe for Teriyaki Salmon Bowls with Steamed Vegetables utilizes gluten-free tamari, which is appropriate for a gluten-free diet. The ingredients such as salmon, rice, broccoli, carrots, snap peas, sesame seeds, and green onions are all naturally gluten-free and suitable for the restriction. The cooking methods do not introduce gluten-containing ingredients or cross-contamination risks. The use of sake, mirin, and brown sugar in the teriyaki sauce is appropriate as they are typically gluten-free or can be substituted with gluten-free versions if necessary; the user included a gluten-free tamari, which is a positive note. Overall, the recipe adheres to the gluten-free dietary restriction, providing a balanced, family-friendly meal with clear ingredient choices and preparation steps that avoid gluten. Therefore, it fully complies with the specified restriction.",
+    "success": true
+  },
+  {
+    "trace_id": "36_13",
+    "query": "Looking for some easy low-sodium dinner ideas, got any recipes?",
+    "dietary_restriction": "low-sodium",
+    "response": "## Low-Sodium Miso Glazed Eggplant (Nasu Dengaku)\n\nSavor a vibrant Japanese classic with a healthy, low-sodium twist\u2014tender roasted eggplant topped with a sweet and savory miso glaze that's full of um...",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "reasoning": "The recipe aims to be low-sodium by suggesting the use of low-sodium miso paste and including ingredients like mirin, sake (or water), ginger, sesame oil, and rice vinegar, which are generally low in sodium. The preparation involves roasting the eggplants and applying a miso glaze, which is a common method and does not inherently add excessive salt. The instruction to choose low-sodium miso and to substitute sake with water further reduces sodium content. The garnishes (sesame seeds and scallions) are low in sodium as well. Overall, the recipe provides practical steps to prepare a flavorful dish while maintaining a low-sodium profile. The use of garlic, ginger, and the minimal amount of miso concentrate on reducing salt without sacrificing umami flavor, aligning well with low-sodium dietary needs. Therefore, based on the ingredients and methods described, the recipe adheres to the low-sodium restriction.",
+    "success": true
+  },
+  {
+    "trace_id": "18_2",
+    "query": "Looking for some easy paleo lunch ideas that don\u2019t take forever to make. Got any favorites?",
+    "dietary_restriction": "paleo",
+    "response": "## Paleo Chicken Teriyaki Lettuce Wraps\n\nA quick and fresh paleo-friendly lunch that bursts with savory teriyaki-flavored chicken tucked inside crisp, cooling lettuce leaves\u2014perfect for a satisfying, ...",
+    "true_label": "FAIL",
+    "predicted_label": "PASS",
+    "reasoning": "The recipe for Paleo Chicken Teriyaki Lettuce Wraps adheres closely to paleo dietary restrictions. It uses coconut aminos as a soy sauce substitute, which is paleo-friendly, and excludes grains, legumes, dairy, refined sugars, and processed foods. The sauce ingredients\u2014coconut aminos, maple syrup, rice vinegar, ginger, garlic, and oil\u2014are compliant, assuming the maple syrup is in moderation (optional). The cooking method involves stir-frying sliced chicken with flavorful sauce, which is quick and suitable for a paleo meal. The vegetables (carrot, cabbage, cucumber, spring onions) are paleo as they are whole vegetables, and lettuce leaves provide a low-carb, grain-free vessel. The optional sesame seeds and cilantro are acceptable in moderation for a paleo diet, though sesame seeds are seeds and sometimes debated, but they are generally accepted. Overall, the recipe aligns well with paleo guidelines, is quick to prepare, and uses compliant ingredients and methods. Therefore, it passes as a paleo-friendly meal.",
+    "success": true
+  },
+  {
+    "trace_id": "27_13",
+    "query": "hey, do you have any tasty raw vegan lunch ideas? trying to keep it simple but yummy!",
+    "dietary_restriction": "raw vegan",
+    "response": "## Refreshing Japanese-Inspired Raw Vegan Sushi Rolls\n\nExperience the vibrant flavors of traditional sushi in a raw vegan form that's light, fresh, and incredibly delicious\u2014perfect for a simple yet sa...",
+    "true_label": "FAIL",
+    "predicted_label": "FAIL",
+    "reasoning": "The recipe claims to be raw vegan, but it includes a step where cauliflower is lightly steamed for 3-4 minutes, then rinsed with cold water. While this brief steaming may slightly warm the cauliflower, it generally exceeds the temperature threshold (118\u00b0F / 48\u00b0C) that defines raw food, potentially compromising the raw vegan status. Additionally, if the cauliflower rice is not fully raw or if any ingredients are heat-processed or heated above that temperature, it would not be considered strictly raw vegan. The rest of the ingredients\u2014nori sheets, cucumber, carrot, avocado, purple cabbage, rice vinegar (which is typically raw), sesame seeds, cilantro, and coconut aminos\u2014are compliant. However, because of the steaming step, the overall recipe does not fully adhere to the strict raw vegan dietary restriction. Therefore, it should be labeled FAIL.",
+    "success": true
+  }
+]

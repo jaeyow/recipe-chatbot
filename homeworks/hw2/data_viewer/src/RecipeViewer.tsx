@@ -23,7 +23,7 @@ export const RecipeViewer: React.FC<RecipeViewerProps> = ({
   // Create unique localStorage key including filename to avoid conflicts
   const getStorageKey = (recipeId: string) => `annotation_${fileName}_${recipeId}`;
 
-  // Load saved annotation for current recipe
+  // Load saved annotation for current recipe (empty if never annotated)
   useEffect(() => {
     const saved = localStorage.getItem(getStorageKey(recipe.id));
     if (saved) {
@@ -40,7 +40,7 @@ export const RecipeViewer: React.FC<RecipeViewerProps> = ({
     if (words.length <= 500) {
       setCurrentAnnotation(value);
       setWordCount(words.length);
-      // Auto-save to localStorage with filename-specific key
+      // Auto-save to localStorage when user types
       localStorage.setItem(getStorageKey(recipe.id), value);
     }
   };
@@ -71,10 +71,27 @@ export const RecipeViewer: React.FC<RecipeViewerProps> = ({
           <div className="query-text">
             {recipe.query}
           </div>
+          {recipe.dietary_restriction && (
+            <div className="dietary-restriction">
+              <strong>Dietary Restriction:</strong> {recipe.dietary_restriction}
+            </div>
+          )}
+          {(recipe.trace_id || recipe.query_id) && (
+            <div className="trace-info">
+              {recipe.trace_id && <span className="trace-id">Trace ID: {recipe.trace_id}</span>}
+              {recipe.query_id && <span className="query-id">Query ID: {recipe.query_id}</span>}
+            </div>
+          )}
         </div>
         
         <div className="response-section">
           <h2>Recipe Response</h2>
+          {recipe.success !== undefined && (
+            <div className={`status-indicator ${recipe.success ? 'success' : 'error'}`}>
+              Status: {recipe.success ? '✅ Success' : '❌ Failed'}
+              {recipe.error && <span className="error-message"> - {recipe.error}</span>}
+            </div>
+          )}
           <div className="response-text">
             <ReactMarkdown 
               remarkPlugins={[remarkGfm]}

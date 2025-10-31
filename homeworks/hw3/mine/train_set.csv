@@ -1,0 +1,513 @@
+query,dietary_restriction,response,success,error,trace_id,query_id,label,reasoning,confidence,labeled
+Got any nut-free dinner ideas? My kid’s allergic and I wanna try something new.,nut-free,"## Chicken Teriyaki Donburi (Nut-Free, Kid-Friendly)
+
+Discover a comforting bowl of tender chicken glazed in a sweet and savory teriyaki sauce, served over steamed rice—a perfect nut-free dinner that kids will love and enjoy!
+
+### Ingredients
+
+#### For Chicken Teriyaki:
+- 300g boneless, skinless chicken thighs, cut into bite-sized pieces
+- 3 tbsp soy sauce (ensure nut-free brand)
+- 2 tbsp mirin (sweet rice wine)
+- 1 tbsp sake (optional, or substitute with water)
+- 1 tbsp sugar
+- 1 garlic clove, minced
+- 1 tsp fresh ginger, grated
+- 1 tbsp vegetable oil
+
+#### For Serving:
+- 1 cup Japanese short-grain rice
+- 2 tbsp chopped green onions
+- Pickled ginger (optional), for garnish
+
+### Instructions
+
+1. **Cook the Rice:** Rinse the rice under cold water until clear, then cook according to package instructions or in a rice cooker. Keep warm.
+2. **Prepare Teriyaki Sauce:** In a small bowl, mix soy sauce, mirin, sake, sugar, garlic, and ginger until sugar dissolves.
+3. **Cook Chicken:** Heat vegetable oil in a non-stick skillet over medium heat. Add the chicken pieces and cook, stirring occasionally, until browned and cooked through (about 6-8 minutes).
+4. **Add Sauce:** Pour the teriyaki sauce mixture over the chicken in the skillet. Simmer for 3-5 minutes, stirring frequently, until the sauce thickens and coats the chicken beautifully.
+5. **Assemble Donburi:** Divide the cooked rice into two bowls. Top with the glazed teriyaki chicken.
+6. **Garnish:** Sprinkle with chopped green onions and add a small amount of pickled ginger, if desired, for a zesty contrast.
+
+### Serving Size
+
+This recipe serves 2 people.
+
+---
+
+**Fun Tip:** You can sneak in some finely chopped steamed vegetables like carrots or broccoli into the teriyaki sauce for extra nutrition if your kid is open to it. Enjoy the cozy flavors! Itadakimasu!",True,,22_13,22,PASS,"The recipe for Chicken Teriyaki Donburi adheres to the nut-free dietary restriction. The ingredients listed, such as chicken, soy sauce, mirin, sake, sugar, garlic, ginger, vegetable oil, rice, green onions, and pickled ginger, do not include any tree nuts or peanuts. The recipe also specifies using a nut-free brand of soy sauce, which is important as some soy sauces may be processed in facilities that handle nuts. The preparation methods do not introduce any risk of cross-contamination with nuts, assuming that all kitchen equipment and surfaces are properly cleaned and free from nut residues. Therefore, the recipe is suitable for someone with a nut allergy.",HIGH,True
+"Hey, can you suggest some easy low-sodium meals? Trying to watch my salt intake.",low-sodium,"## Miso Glazed Eggplant (Low-Sodium & Vegetarian)
+
+Delight in a savory-sweet miso glazed eggplant dish that's bursting with umami flavors but gentle on your sodium intake—perfect for a healthy and satisfying meal.
+
+### Ingredients
+
+- 1 large Japanese eggplant (about 300g), sliced into 1/2-inch rounds
+- 1 tbsp low-sodium white miso paste
+- 1 tbsp mirin (sweet rice wine)
+- 1 tbsp sake or water
+- 1 tsp honey or maple syrup
+- 1 tsp grated fresh ginger
+- 1 tsp toasted sesame oil
+- 1 tsp rice vinegar
+- 1 tsp sesame seeds, for garnish
+- 1 green onion, finely chopped, for garnish
+- 1 tbsp neutral oil (such as canola or vegetable oil) for cooking
+
+### Instructions
+
+1. **Prepare the glaze:** In a small bowl, whisk together the low-sodium white miso paste, mirin, sake (or water), honey, grated ginger, toasted sesame oil, and rice vinegar until smooth and well combined. Set aside.
+2. **Cook the eggplant:** Heat the neutral oil in a non-stick skillet over medium heat. Add the eggplant slices, cooking for about 3-4 minutes on each side, until they become tender and lightly browned.
+3. **Glaze the eggplant:** Lower the heat to medium-low, then brush each eggplant slice generously with the miso glaze. Cook for another 1-2 minutes per side, allowing the glaze to caramelize slightly but not burn.
+4. **Serve:** Transfer the glazed eggplant slices to a serving plate. Sprinkle with sesame seeds and chopped green onions for a fresh finish.
+
+### Serving Size
+
+This recipe serves 2 people.
+
+---
+
+**Fun Tip:** Serve this miso glazed eggplant alongside steamed brown rice or quinoa for a wholesome, balanced meal that's low in sodium but rich in flavor. Itadakimasu!",True,,34_2,34,FAIL,"The recipe for Miso Glazed Eggplant is intended to be low-sodium, but there are concerns regarding the sodium content of certain ingredients. While the recipe uses low-sodium white miso paste, miso is inherently high in sodium, even in its low-sodium form. Additionally, mirin and sake can also contribute to the sodium content, although they are not typically high in sodium. The recipe does not specify the sodium content of these ingredients, which makes it difficult to ensure that the overall dish is truly low in sodium. The use of honey or maple syrup, ginger, sesame oil, rice vinegar, sesame seeds, and green onion do not contribute significantly to sodium levels. However, the reliance on miso as a primary flavoring agent is problematic for a low-sodium diet.",HIGH,True
+Got any good diabetic-friendly lunch ideas that won’t spike my blood sugar?,diabetic-friendly,"## Soba Noodle Salad with Grilled Tofu and Sesame Dressing
+
+This light and refreshing soba noodle salad combines protein-rich grilled tofu with fiber-packed buckwheat noodles and a zesty sesame dressing — perfect for a diabetic-friendly lunch that keeps blood sugar steady without sacrificing flavor.
+
+### Ingredients
+
+#### For the Salad:
+- 100g (3.5 oz) dried soba noodles (100% buckwheat preferred)
+- 200g (7 oz) firm tofu, pressed and sliced into 1cm thick strips
+- 1 small cucumber, julienned
+- 1 medium carrot, julienned
+- 2 cups mixed leafy greens (spinach, mizuna, or arugula)
+- 2 tbsp toasted sesame seeds
+- 1 green onion, thinly sliced
+
+#### For the Sesame Dressing:
+- 2 tbsp low-sodium soy sauce or tamari (gluten-free if needed)
+- 1 tbsp rice vinegar
+- 1 tsp toasted sesame oil
+- 1 tsp grated fresh ginger
+- 1 tsp pure maple syrup or a diabetic-friendly sweetener equivalent
+- 1 small garlic clove, minced
+- A pinch of red chili flakes (optional)
+
+### Instructions
+
+1. **Cook the Soba Noodles:** Bring a large pot of water to a boil. Add soba noodles and cook according to package instructions (usually 4-6 minutes). Drain and rinse under cold water until completely cool to prevent sticking and stop cooking. Drain well and set aside.
+2. **Grill the Tofu:** Heat a non-stick skillet or grill pan over medium heat. Lightly brush tofu slices with a little oil if desired, then grill for 3-4 minutes per side until golden brown and slightly crispy. Remove from heat.
+3. **Prepare the Dressing:** In a small bowl, whisk together soy sauce, rice vinegar, sesame oil, grated ginger, maple syrup, garlic, and chili flakes until well combined.
+4. **Assemble the Salad:** In a large bowl, combine cooled soba noodles, cucumber, carrot, leafy greens, and green onion. Add the grilled tofu on top.
+5. **Dress and Toss:** Pour the sesame dressing over the salad and gently toss to combine everything evenly.
+6. **Serve:** Sprinkle toasted sesame seeds over the salad just before serving for added crunch and flavor.
+
+### Serving Size
+
+This recipe serves 2 people.
+
+---
+
+**Fun Tip:** To add extra color and nutrients, try mixing in thin slices of bell pepper or radish! The vibrant crunch is delightful and keeps this dish exciting. Itadakimasu!",True,,19_13,19,PASS,"The recipe for Soba Noodle Salad with Grilled Tofu and Sesame Dressing is evaluated for its suitability as a diabetic-friendly meal. The primary carbohydrate source is soba noodles, which are made from buckwheat. Buckwheat has a lower glycemic index compared to regular wheat noodles, making it a better option for managing blood sugar levels. The recipe also includes tofu, which is a good source of protein and does not significantly impact blood sugar. The vegetables (cucumber, carrot, leafy greens) provide fiber, which helps in slowing down the absorption of carbohydrates, further aiding in blood sugar control. The sesame dressing includes a small amount of maple syrup, but the recipe suggests using a diabetic-friendly sweetener as an alternative, which is appropriate for maintaining low glycemic impact. The use of low-sodium soy sauce or tamari is also beneficial for overall health. Overall, the recipe is well-balanced with a focus on low glycemic ingredients, making it suitable for a diabetic-friendly diet.",HIGH,True
+Got any easy kosher chicken recipes? Want something quick for dinner tonight.,kosher,"## Teriyaki Chicken Donburi (Quick Kosher Dinner)
+
+Savor a quick and easy teriyaki chicken donburi bowl that's bursting with sweet and savory flavors, perfect for a wholesome, kosher weeknight dinner in under 30 minutes!
+
+### Ingredients
+
+- 300g boneless, skinless chicken thighs or breasts, cut into bite-sized pieces (kosher-certified)
+- 2 tbsp soy sauce (ensure kosher certification)
+- 2 tbsp mirin (sweet rice wine, kosher-certified)
+- 1 tbsp sake or water (kosher)
+- 1 tbsp brown sugar
+- 1 tbsp vegetable oil
+- 1 garlic clove, minced
+- 1 tsp fresh ginger, grated
+- 1/2 cup water
+- 1 tsp cornstarch mixed with 2 tbsp water (optional, to thicken sauce)
+- 1 cup steamed white rice or brown rice
+- 1 spring onion, sliced thinly
+- Sesame seeds, for garnish (optional)
+- Pickled ginger, for serving (optional)
+
+### Instructions
+
+1. **Prepare the Teriyaki Sauce:** In a small bowl, mix together soy sauce, mirin, sake (or water), brown sugar, garlic, and ginger until sugar dissolves.
+2. **Cook the Chicken:** Heat vegetable oil in a large skillet over medium-high heat. Add the chicken pieces and sauté until they begin to brown and are nearly cooked through, about 6-7 minutes.
+3. **Add Sauce to Chicken:** Pour the teriyaki sauce over the chicken in the skillet. Add 1/2 cup water and bring to a simmer.
+4. **Simmer the Sauce:** Let the chicken cook in the sauce for another 5 minutes, turning occasionally, until the sauce thickens slightly and glazes the chicken. If you prefer thicker sauce, stir in the cornstarch slurry and cook for another 1-2 minutes until sauce thickens.
+5. **Prepare the Rice:** While cooking chicken, steam rice according to package instructions.
+6. **Serve:** Scoop rice into bowls, top with teriyaki chicken, garnish with sliced spring onion and a sprinkle of sesame seeds. Add pickled ginger on the side if you like.
+
+### Serving Size
+
+This recipe serves 2 people.
+
+---
+
+**Fun Tip:** For an added crunch and color contrast, toss some steamed or sautéed broccoli or snap peas alongside your chicken donburi. It adds a fresh, vibrant touch! Itadakimasu!",True,,48_4,48,PASS,"The recipe for Teriyaki Chicken Donburi adheres to kosher dietary restrictions as long as all ingredients are certified kosher. The recipe specifies the use of kosher-certified chicken and soy sauce, which is crucial. Mirin and sake are typically not kosher, but the recipe suggests using kosher-certified mirin and offers water as an alternative to sake, which is acceptable. The preparation method does not involve mixing meat and dairy, which is a key consideration in kosher cooking. Additionally, there are no non-kosher ingredients like shellfish or pork. The use of vegetable oil, garlic, ginger, and other ingredients is permissible under kosher laws, provided they are certified kosher. Therefore, the recipe can be considered kosher if all ingredients are verified as such.",HIGH,True
+"Hey, do you have any easy vegan recipes for a weeknight dinner? Something quick and tasty would be great!",vegan,"## Quick Vegan Japanese Yasai Itame (Stir-Fried Vegetables)
+
+Bright, colorful, and packed with savory umami flavors, this quick vegan Yasai Itame is the perfect weeknight dinner that comes together in under 20 minutes and is delightfully healthy and satisfying.
+
+### Ingredients
+
+- 1 tbsp sesame oil
+- 2 garlic cloves, minced
+- 1-inch piece ginger, grated
+- 1 small onion, thinly sliced
+- 1 medium carrot, julienned
+- 1 small bell pepper (red or yellow), thinly sliced
+- 100g shiitake mushrooms, sliced
+- 100g broccoli florets
+- 100g snap peas, trimmed
+- 2 tbsp soy sauce (or tamari for gluten-free)
+- 1 tbsp mirin
+- 1 tsp toasted sesame seeds, for garnish
+- 2 spring onions, finely chopped, for garnish
+- Cooked white or brown rice, to serve (optional)
+
+### Instructions
+
+1. **Prepare Ingredients:** Have all vegetables washed, sliced, and ready to go as this stir-fry cooks quickly.
+2. **Heat Oil:** Warm sesame oil in a large skillet or wok over medium-high heat.
+3. **Sauté Aromatics:** Add minced garlic and grated ginger, and stir-fry for about 30 seconds until fragrant but not browned.
+4. **Cook Vegetables:** Toss in the onion, carrot, bell pepper, mushrooms, broccoli, and snap peas. Stir-fry continuously for 5-7 minutes, or until the vegetables are crisp-tender but still vibrant.
+5. **Add Seasonings:** Pour in soy sauce and mirin, stirring to coat all the vegetables evenly. Cook for another 1-2 minutes so the sauce reduces slightly.
+6. **Finish and Serve:** Remove from heat and sprinkle with toasted sesame seeds and chopped spring onions. Serve hot with steamed rice if desired.
+
+### Serving Size
+
+This recipe serves 2 people.
+
+---
+
+**Fun Tip:** To add a little extra protein, toss in some cubed firm tofu or edamame during the stir-fry for a heartier meal. The mirin adds a delicate sweetness that balances the savory soy, making this dish totally crave-worthy! Itadakimasu!",True,,1_3,1,PASS,"The recipe for Quick Vegan Japanese Yasai Itame adheres to the vegan dietary restriction. All the ingredients listed, including sesame oil, garlic, ginger, onion, carrot, bell pepper, shiitake mushrooms, broccoli, snap peas, soy sauce, mirin, sesame seeds, and spring onions, are plant-based and do not include any animal products. The optional suggestion to add tofu or edamame for extra protein is also vegan-friendly. The cooking methods described do not involve any non-vegan practices. Therefore, the recipe is suitable for a vegan diet.",HIGH,True
+"Hey, can you suggest some easy low-carb dinner ideas? Trying to keep the carbs down but still want something tasty.",low-carb,"## Japanese Zucchini Noodles with Miso-Glazed Salmon
+
+A light and flavorful low-carb dinner featuring tender miso-glazed salmon served atop refreshing zucchini noodles, packed with umami and freshness for a satisfying meal.
+
+### Ingredients
+
+#### For Miso-Glazed Salmon:
+- 2 salmon fillets (about 150g each)
+- 2 tbsp white miso paste
+- 1 tbsp mirin
+- 1 tbsp sake (optional, or substitute with water)
+- 1 tsp soy sauce or tamari (for gluten-free)
+- 1 tsp sesame oil
+- 1 tsp grated fresh ginger
+
+#### For Zucchini Noodles:
+- 2 medium zucchinis, spiralized into noodles
+- 1 tbsp sesame oil
+- 1 garlic clove, minced
+- 2 spring onions, thinly sliced
+- 1 tbsp toasted sesame seeds
+- Salt and freshly ground black pepper, to taste
+
+### Instructions
+
+1. **Prepare the Miso Glaze:** In a small bowl, mix together miso paste, mirin, sake, soy sauce, sesame oil, and grated ginger until smooth.
+2. **Marinate Salmon:** Brush the salmon fillets on all sides with the miso glaze. Let them marinate for 15 minutes at room temperature.
+3. **Cook Salmon:** Preheat a non-stick skillet over medium heat. Place the salmon skin-side down and cook for 4-5 minutes until crispy. Flip carefully and cook for an additional 3-4 minutes until the salmon is cooked through but still moist inside. Remove from heat and set aside.
+4. **Prepare Zucchini Noodles:** In a large skillet, heat sesame oil over medium heat. Add minced garlic and sauté until fragrant, about 30 seconds.
+5. **Cook Zoodles:** Add zucchini noodles to the pan and stir-fry for 2-3 minutes until just tender but still crisp. Avoid overcooking to prevent sogginess.
+6. **Season Zoodles:** Season with salt and black pepper. Stir in spring onions and toasted sesame seeds.
+7. **Plate:** Divide zucchini noodles between two plates and top each with a piece of miso-glazed salmon.
+
+### Serving Size
+
+This recipe serves 2 people.
+
+---
+
+**Fun Tip:** For extra flavor depth, drizzle a little chili oil over the salmon before serving if you like a hint of heat! Itadakimasu!",True,,37_6,37,PASS,"The recipe for Japanese Zucchini Noodles with Miso-Glazed Salmon is evaluated for adherence to a low-carb dietary restriction. The main components of the dish are salmon and zucchini noodles, both of which are low in carbohydrates. The miso glaze includes white miso paste, mirin, sake, soy sauce, sesame oil, and ginger. While mirin and sake contain some carbohydrates, the amounts used are minimal and spread across two servings, keeping the overall carbohydrate content low. Zucchini noodles are a low-carb alternative to traditional pasta. The recipe avoids high-carb ingredients and focuses on low-carb vegetables and protein, making it suitable for a low-carb diet.",HIGH,True
+"Hey, can you suggest some easy nut-free snacks for my kids?",nut-free,"## Crispy Japanese Rice Crackers (Arare) – Nut-Free Kid-Friendly Snack
+
+Delight your kids with these crunchy, savory Japanese rice crackers that are easy to make, nut-free, and perfect for snacking anytime!
+
+### Ingredients
+- 1 cup cooked Japanese short-grain rice (preferably freshly cooked and slightly cooled)
+- 1 tbsp soy sauce (use gluten-free if needed)
+- 1 tsp sugar
+- 1 tsp sesame oil (optional for flavor)
+- 1/2 tsp salt
+- Vegetable oil for frying
+
+### Instructions
+
+1. **Prepare the Rice:** After cooking your short-grain rice, let it cool slightly so it’s still sticky but manageable.
+2. **Mix Seasonings:** In a small bowl, mix soy sauce, sugar, sesame oil (if using), and salt until the sugar dissolves.
+3. **Flavor the Rice:** Gently mix the cooked rice with the soy sauce mixture, ensuring the rice is evenly coated without mashing the grains.
+4. **Shape the Crackers:** Wet your hands, scoop small tablespoon-sized amounts of rice, and flatten them into thin, small rounds or shapes on a clean surface. The thinner, the crispier!
+5. **Dry the Rice Shapes:** Arrange the shaped rice crackers on a baking tray lined with parchment paper. Let them air dry for several hours or overnight to reduce moisture. Alternatively, you can dry them in a low oven (around 120°C/250°F) for about 30-40 minutes, flipping halfway.
+6. **Fry the Crackers:** Heat vegetable oil in a deep pan over medium heat. Fry the rice crackers in batches until they puff up slightly and turn golden brown (about 1-2 minutes). Remove and drain on paper towels.
+7. **Cool and Serve:** Allow crackers to cool completely before serving to kids.
+
+### Serving Size
+
+This recipe makes approximately 20-25 rice crackers, perfect for 2 kids’ snack portions.
+
+---
+
+**Fun Tip:** Let your kids help shape the rice crackers into fun animal or star shapes before drying—making snack time creative and interactive! Itadakimasu!",True,,24_6,24,PASS,"The recipe for Crispy Japanese Rice Crackers (Arare) adheres to the nut-free dietary restriction. The ingredients listed include cooked Japanese short-grain rice, soy sauce, sugar, sesame oil, salt, and vegetable oil, none of which are nuts or derived from nuts. The preparation method involves mixing, shaping, drying, and frying the rice crackers, which does not introduce any nut-based ingredients. Additionally, the recipe explicitly states it is nut-free, and there are no hidden sources of nuts in the ingredients or cooking process.",HIGH,True
+Trying to stay keto—got any easy dinner recipes that won’t blow my carbs for the day?,keto,"## Keto-Friendly Miso-Glazed Black Cod
+
+Savor a luscious, buttery black cod fillet glazed with savory miso, creating a low-carb Japanese dinner that's incredibly flavorful and perfectly keto-friendly!
+
+### Ingredients
+
+- 2 black cod fillets (about 150g each)
+- 2 tbsp white miso paste
+- 1 tbsp sake
+- 1 tbsp mirin (use a low-carb mirin substitute if strict keto)
+- 1 tbsp erythritol or another keto-friendly sweetener
+- 1 tsp sesame oil
+- 1 tbsp vegetable oil or avocado oil for cooking
+- Steamed or sautéed bok choy or spinach, for serving
+- Sesame seeds, for garnish (optional)
+- Chopped green onions, for garnish (optional)
+
+### Instructions
+
+1. **Prepare the Miso Marinade:** In a small bowl, whisk together the miso paste, sake, mirin substitute, erythritol, and sesame oil until smooth.
+2. **Marinate the Cod:** Pat the cod fillets dry, then coat them generously with the miso marinade. Cover and refrigerate for at least 30 minutes, preferably 2 hours for deeper flavor.
+3. **Cook the Cod:** Heat the vegetable oil in a non-stick skillet over medium heat. Remove excess marinade from the cod (reserve it), and place the fillets skin-side down in the pan.
+4. **Pan-Sear:** Cook for about 4-5 minutes or until the skin is crispy. Flip the fillets carefully and cook for another 3-4 minutes until the fish is cooked through.
+5. **Glaze Finish:** Brush the reserved marinade over the fillets once more during the last minute of cooking to intensify flavor without burning.
+6. **Serve:** Plate the black cod with a side of steamed or sautéed low-carb greens like bok choy or spinach. Garnish with sesame seeds and green onions if desired.
+
+### Serving Size
+
+This recipe serves 2 people.
+
+---
+
+**Fun Tip:** For an even richer experience, serve your miso-glazed black cod with a small bowl of keto cauliflower rice to absorb those delicious miso flavors! Itadakimasu!",True,,8_13,8,PASS,"The recipe for Keto-Friendly Miso-Glazed Black Cod adheres to the keto dietary restriction. The primary ingredients, such as black cod, miso paste, and keto-friendly sweeteners like erythritol, are suitable for a keto diet. The recipe suggests using a low-carb mirin substitute, which is crucial for maintaining low carbohydrate content. The use of sake is minimal, and while it contains some carbs, the overall impact on the dish's carb count is likely negligible, especially when considering the portion size. The recipe also includes low-carb vegetables like bok choy or spinach, which are appropriate for a keto diet. The cooking method of pan-searing the fish does not introduce any additional carbs. Overall, the recipe is well-suited for a keto diet, provided the mirin substitute is low-carb.",HIGH,True
+"Looking for some easy raw vegan snacks I can prep quickly, any suggestions?",raw vegan,"## Fresh Edamame and Seaweed Salad
+
+Dive into a light and refreshing raw vegan snack inspired by traditional Japanese flavors, ready in minutes and packed with nutrients!
+
+### Ingredients
+
+- 150g fresh edamame pods (raw, shelled)
+- 10g dried wakame seaweed
+- 1 tbsp rice vinegar
+- 1 tsp toasted sesame oil
+- 1 tsp tamari or soy sauce (use gluten-free if preferred)
+- 1/2 tsp maple syrup or agave nectar
+- 1 small cucumber, thinly sliced
+- 1 tbsp toasted sesame seeds
+- 1 spring onion, finely chopped
+
+### Instructions
+
+1. **Prepare Wakame:** Soak the dried wakame seaweed in cold water for about 10 minutes until rehydrated and expanded. Drain and gently squeeze out excess water.
+2. **Steam or Blanch Edamame:** For a raw vegan version strictly uncooked, you can use raw, shelled edamame if available; otherwise, briefly blanch the edamame in hot water for 2-3 minutes, then cool immediately in ice water to keep it crisp.
+3. **Make Dressing:** In a small bowl, whisk together rice vinegar, toasted sesame oil, tamari, and maple syrup until well combined.
+4. **Assemble:** In a mixing bowl, combine the edamame, wakame, and cucumber slices. Pour over the dressing and toss gently to coat evenly.
+5. **Garnish:** Sprinkle with toasted sesame seeds and chopped spring onion for added flavor and crunch.
+
+### Serving Size
+
+This recipe serves 2 people as a light snack.
+
+---
+
+**Fun Tip:** To add an extra burst of flavor, sprinkle a bit of shichimi togarashi spice mix over the salad for a mild kick that wakes up the palate! Itadakimasu!",True,,26_3,26,FAIL,"The recipe is intended to be raw vegan, but there are several issues that prevent it from fully adhering to the raw vegan dietary restriction. Firstly, the use of toasted sesame oil and toasted sesame seeds is not compliant with raw vegan guidelines, as these ingredients are typically heated above 118°F during processing. Additionally, the recipe suggests blanching the edamame, which involves cooking it in hot water, thus violating the raw aspect of the diet. While the recipe does mention using raw, shelled edamame if available, the inclusion of a cooking method that involves heat is not suitable for a strict raw vegan diet. Furthermore, the use of tamari or soy sauce may also be problematic, as these are often pasteurized or processed at high temperatures, unless specifically labeled as raw. Therefore, the recipe does not fully meet the raw vegan criteria.",HIGH,True
+"Hey, I’m doing Whole30 and could use some easy dinner ideas that won’t mess up the plan. Got any good recipes?",whole30,"## Whole30-Friendly Japanese Chicken and Vegetable Stir-Fry
+
+A vibrant and satisfying Whole30-compliant Japanese-inspired chicken and vegetable stir-fry that's packed with fresh flavors and perfect for a quick, healthy dinner.
+
+### Ingredients
+
+- 300g boneless, skinless chicken breasts or thighs, thinly sliced
+- 1 tbsp coconut aminos (Whole30-compliant soy sauce substitute)
+- 1 tbsp sesame oil (or avocado oil)
+- 2 garlic cloves, minced
+- 1 tsp fresh ginger, grated
+- 1 small carrot, julienned
+- 1 small zucchini, thinly sliced
+- 100g shiitake mushrooms, sliced
+- 1/2 cup snap peas
+- 2 spring onions, chopped (green parts only for garnish)
+- 1/2 tsp red chili flakes (optional)
+- Salt and freshly ground black pepper, to taste
+
+### Instructions
+
+1. **Marinate the Chicken:** In a bowl, toss the sliced chicken with half the coconut aminos, half the minced garlic, and half the grated ginger. Let it marinate for 10 minutes.
+2. **Heat the Pan:** Warm the sesame or avocado oil in a large skillet or wok over medium-high heat.
+3. **Cook the Chicken:** Add the marinated chicken to the pan and cook for 5-6 minutes, stirring frequently, until it's cooked through and starting to brown. Remove the chicken from the pan and set aside.
+4. **Sauté Aromatics:** In the same pan, add the remaining garlic and ginger, sautéing for about 30 seconds until fragrant.
+5. **Cook Vegetables:** Add the carrot, zucchini, shiitake mushrooms, and snap peas to the pan. Stir-fry for 5-7 minutes until the vegetables are tender yet crisp.
+6. **Combine Chicken and Veggies:** Return the chicken to the pan, add the remaining coconut aminos and red chili flakes if using, and stir everything together. Cook for another 2 minutes to meld flavors.
+7. **Season:** Taste and add salt and pepper as needed.
+8. **Serve:** Divide the stir-fry onto plates and garnish with chopped green parts of spring onions.
+
+### Serving Size
+
+This recipe serves 2 people.
+
+---
+
+**Fun Tip:** For extra texture and freshness, sprinkle toasted sesame seeds or crushed nori sheets on top—both Whole30-friendly! Itadakimasu!",True,,33_3,33,PASS,"The recipe for Whole30-Friendly Japanese Chicken and Vegetable Stir-Fry adheres to the Whole30 dietary restrictions. It uses coconut aminos as a substitute for soy sauce, which is compliant with Whole30 guidelines. The recipe avoids grains, legumes, dairy, refined sugar, and processed foods, all of which are prohibited on the Whole30 program. The use of fresh vegetables, chicken, and compliant oils like sesame or avocado oil aligns with Whole30 principles. Additionally, the recipe does not include any non-compliant ingredients or cooking methods that would violate the Whole30 plan.",HIGH,True
+Got any easy raw vegan lunch ideas? I’m trying to keep things simple and fresh.,raw vegan,"I can only suggest Japanese or Japanese-inspired dishes, but I have a great fresh and simple raw vegan option inspired by Japanese flavors!
+
+## Raw Vegan Japanese Zucchini Noodle Salad with Miso Dressing
+
+This crisp and refreshing raw zucchini noodle salad is packed with umami-rich miso dressing and fresh vegetables, perfect for a light and vibrant lunch that feels like a breath of fresh Japanese air!
+
+### Ingredients
+
+- 2 medium zucchinis, spiralized into noodles
+- 1 small carrot, julienned
+- 1/2 cucumber, thinly sliced
+- 1/4 cup shredded purple cabbage
+- 1 sheet nori seaweed, cut into thin strips
+- 1 tbsp toasted sesame seeds
+- 2 tbsp chopped green onions
+
+#### For the Miso Dressing:
+- 1 tbsp white miso paste
+- 1 tbsp lemon juice
+- 1 tbsp rice vinegar
+- 1 tsp toasted sesame oil
+- 1 tsp maple syrup or agave nectar
+- 2 tbsp cold water (to thin as needed)
+- 1 tsp grated fresh ginger
+
+### Instructions
+
+1. **Prepare the Vegetables:** Spiralize the zucchinis into noodles and place in a large mixing bowl. Add the julienned carrot, sliced cucumber, and shredded cabbage.
+2. **Make the Dressing:** In a small bowl, whisk together the white miso paste, lemon juice, rice vinegar, toasted sesame oil, maple syrup, grated ginger, and water. Adjust water quantity to your preferred consistency—it should be pourable but not too thin.
+3. **Toss Salad:** Pour the miso dressing over the vegetable noodles and toss gently to evenly coat all the ingredients.
+4. **Add Toppings:** Sprinkle the salad with nori strips, toasted sesame seeds, and chopped green onions.
+5. **Serve:** Divide into two bowls and enjoy immediately for the freshest crunch.
+
+### Serving Size
+
+Serves 2 people.
+
+---
+
+**Fun Tip:** For a protein boost, sprinkle some raw shelled edamame or hemp seeds on top—they keep the dish raw and add delightful texture! Itadakimasu!",True,,25_3,25,PASS,"The recipe for Raw Vegan Japanese Zucchini Noodle Salad with Miso Dressing adheres to the raw vegan dietary restriction. All ingredients listed are plant-based and do not include any animal products, which satisfies the vegan requirement. Additionally, the preparation method does not involve heating any ingredients above 118°F, which aligns with the raw food criteria. The use of fresh vegetables, nori seaweed, and a dressing made from raw ingredients like miso paste, lemon juice, and rice vinegar further supports the raw vegan classification. The optional addition of raw shelled edamame or hemp seeds for protein is also compliant with raw vegan standards.",HIGH,True
+"Looking for some easy dairy-free dinner ideas, anything tasty and quick?",dairy-free,"## Miso Glazed Salmon with Sautéed Spinach and Mushrooms (Dairy-Free)
+
+This quick and flavorful miso-glazed salmon pairs perfectly with sautéed spinach and mushrooms, making for a healthy and delicious dairy-free dinner that’s ready in under 30 minutes!
+
+### Ingredients
+
+#### For the Miso Glazed Salmon:
+- 2 salmon fillets (approx. 150g each)
+- 1 tbsp white miso paste
+- 1 tbsp mirin (sweet rice wine)
+- 1 tbsp soy sauce or tamari (for gluten-free)
+- 1 tsp maple syrup or honey
+- 1 tsp sesame oil
+- 1 garlic clove, minced
+- 1 tsp grated fresh ginger
+
+#### For the Sautéed Spinach and Mushrooms:
+- 1 tbsp sesame oil or olive oil
+- 2 garlic cloves, thinly sliced
+- 150g fresh spinach
+- 100g shiitake or button mushrooms, thinly sliced
+- 1 tbsp soy sauce or tamari
+- Freshly ground black pepper, to taste
+- Toasted sesame seeds, for garnish
+
+### Instructions
+
+1. **Prepare the Miso Glaze:** In a small bowl, whisk together the miso paste, mirin, soy sauce, maple syrup, sesame oil, garlic, and ginger until smooth.
+2. **Marinate the Salmon:** Place the salmon fillets in a shallow dish and spoon the miso glaze over them, making sure to coat the tops evenly. Let marinate for 10 minutes at room temperature.
+3. **Cook the Salmon:** Heat a non-stick skillet over medium heat. Place the salmon fillets skin-side down and cook for about 4-5 minutes until the skin is crispy. Carefully flip and cook for another 3-4 minutes until the salmon is cooked through and caramelized with the glaze.
+4. **Sauté the Vegetables:** While the salmon cooks, heat sesame oil in another pan over medium-high heat. Add garlic slices and sauté until fragrant (about 30 seconds).
+5. **Add Mushrooms:** Toss in the sliced mushrooms and cook for 4-5 minutes until they start to brown and soften.
+6. **Add Spinach and Season:** Add the spinach and soy sauce to the pan. Stir and cook until the spinach wilts, about 2 minutes. Season with freshly ground black pepper.
+7. **Serve:** Plate the salmon fillets with the sautéed spinach and mushrooms alongside. Sprinkle toasted sesame seeds over the top for a lovely nutty flavor.
+
+### Serving Size
+
+This recipe serves 2 people.
+
+---
+
+**Fun Tip:** To add a little crunch, sprinkle some toasted nori flakes (seaweed) on top just before serving! It brings an extra ocean flavor that complements the salmon beautifully. Itadakimasu!",True,,11_11,11,PASS,"The recipe for Miso Glazed Salmon with Sautéed Spinach and Mushrooms adheres to the dairy-free dietary restriction. The ingredients listed do not include any dairy products such as milk, cheese, butter, or yogurt. The recipe uses sesame oil and olive oil instead of butter for cooking, and there are no dairy-based sauces or dressings involved. The use of miso paste, soy sauce, and other flavorings are all compatible with a dairy-free diet. The preparation methods do not introduce any dairy elements either.",HIGH,True
+"Hey, I’m doing Whole30 and could use some easy dinner ideas that won’t mess up the plan. Got any good recipes?",whole30,"## Whole30-Friendly Ginger Miso Salmon with Sautéed Spinach
+
+Delight in a tangy, umami-packed salmon dish perfectly balanced with garlicky sautéed spinach, all compliant with Whole30 — simple, nutritious, and bursting with flavor!
+
+### Ingredients
+
+#### For the Ginger Miso Salmon:
+- 2 salmon fillets (about 150g each), skin on
+- 1 tbsp white miso paste (make sure it’s Whole30-compliant with no sugar or additives)
+- 1 tbsp coconut aminos
+- 1 tsp fresh ginger, grated
+- 1 garlic clove, minced
+- 1 tsp sesame oil (optional, for flavor)
+
+#### For the Sautéed Spinach:
+- 200g fresh spinach
+- 1 tbsp olive oil or avocado oil
+- 2 garlic cloves, thinly sliced
+- Salt and freshly ground black pepper, to taste
+- A squeeze of lemon juice (optional)
+
+### Instructions
+
+1. **Prepare the Marinade:** In a small bowl, mix the miso paste, coconut aminos, grated ginger, minced garlic, and sesame oil until well combined.
+2. **Marinate the Salmon:** Pat the salmon fillets dry with paper towels, then brush the marinade generously over the top of the fillets. Set aside while you prepare the spinach.
+3. **Cook the Salmon:** Heat a non-stick skillet over medium heat. Place the salmon fillets skin-side down and cook for about 4-5 minutes until the skin is crispy and the salmon is cooked halfway through. Flip and cook for another 2-3 minutes until cooked to your liking. Remove from heat and set aside.
+4. **Sauté the Spinach:** In a large skillet, heat olive or avocado oil over medium heat. Add sliced garlic and sauté until fragrant but not browned, about 1 minute.
+5. **Add Spinach:** Toss in the spinach and stir continuously until wilted, about 2-3 minutes. Season with salt, pepper, and a squeeze of lemon juice if desired.
+6. **Serve:** Plate the salmon alongside the sautéed spinach for a quick, wholesome dinner.
+
+### Serving Size
+
+This recipe serves 2 people.
+
+---
+
+**Fun Tip:** Try switching up your leafy greens—kale or Swiss chard also work wonderfully sautéed with garlic for variety! Itadakimasu!",True,,33_9,33,FAIL,"The recipe for Ginger Miso Salmon with Sautéed Spinach is intended to be Whole30-compliant. However, it includes white miso paste, which is typically made from fermented soybeans and often contains rice or barley, both of which are not allowed on the Whole30 program. Even if the miso paste is labeled as Whole30-compliant, it is generally difficult to find miso paste that meets the strict Whole30 guidelines due to the presence of soy and potential additives. Additionally, sesame oil is used, which is not explicitly prohibited but is generally avoided on Whole30 due to its seed oil nature. The rest of the ingredients, such as salmon, coconut aminos, fresh ginger, garlic, spinach, olive oil, and lemon juice, are compliant. However, due to the inclusion of miso paste, the recipe does not fully adhere to Whole30 guidelines.",HIGH,True
+Looking for some easy paleo lunch ideas that don’t take forever to make. Got any favorites?,paleo,"## Paleo-Inspired Teriyaki Salmon Bowl
+
+This quick and easy Paleo-friendly teriyaki salmon bowl is bursting with flavor and comes together in just 20 minutes—a perfect lunch to keep you energized and satisfied!
+
+### Ingredients
+
+#### For the Teriyaki Salmon:
+- 2 salmon fillets (about 150g each)
+- 3 tbsp coconut aminos (a Paleo-friendly soy sauce alternative)
+- 1 tbsp raw honey or maple syrup
+- 1 tsp freshly grated ginger
+- 1 garlic clove, minced
+- 1 tbsp avocado oil or olive oil
+- Sesame seeds, for garnish (optional)
+- Chopped green onions, for garnish
+
+#### For the Veggie Base:
+- 2 cups cauliflower rice (fresh or frozen)
+- 1 small carrot, julienned or thinly sliced
+- 1 cup broccoli florets
+- 1 tbsp avocado oil or olive oil
+- Salt and freshly ground black pepper, to taste
+
+### Instructions
+
+1. **Make the Teriyaki Sauce:** In a small bowl, whisk together coconut aminos, honey, grated ginger, and minced garlic. Set aside.
+2. **Cook the Salmon:** Heat avocado oil in a non-stick skillet over medium-high heat. Place the salmon fillets skin-side down, cooking for about 4-5 minutes per side until cooked through and nicely caramelized. Pour half the teriyaki sauce over the salmon during the last 2 minutes of cooking to glaze it. Remove salmon from the pan and set aside.
+3. **Prepare the Veggies:** In the same skillet, add another tablespoon of avocado oil if needed. Toss in the broccoli florets and carrot slices, stir-frying for about 4-5 minutes until tender-crisp.
+4. **Cook Cauliflower Rice:** Add cauliflower rice to the skillet, seasoning with salt and pepper. Stir and cook for another 3-4 minutes until the cauliflower is tender.
+5. **Glaze Veggies:** Pour the remaining teriyaki sauce over the veggies and mix well to coat them evenly.
+6. **Assemble the Bowl:** Divide the cauliflower rice and veggies between two bowls, top each with a glazed salmon fillet.
+7. **Garnish:** Sprinkle with sesame seeds and chopped green onions if desired.
+
+### Serving Size
+
+This recipe serves 2 people.
+
+---
+
+**Fun Tip:** If you're short on time, use pre-packaged cauliflower rice and frozen broccoli to speed up the cooking—still Paleo and tasty! Itadakimasu!",True,,18_10,18,PASS,"The recipe for the Paleo-Inspired Teriyaki Salmon Bowl adheres to the Paleo dietary restriction. It uses coconut aminos as a soy sauce alternative, which is compliant with Paleo guidelines. The use of raw honey or maple syrup as a sweetener is acceptable in moderation within the Paleo diet. The recipe avoids grains, legumes, dairy, refined sugar, and processed foods, which are not allowed in a Paleo diet. The ingredients such as salmon, cauliflower rice, broccoli, and carrots are all Paleo-friendly. The cooking methods, including stir-frying and glazing, do not introduce any non-Paleo elements.",HIGH,True

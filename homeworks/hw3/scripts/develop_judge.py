@@ -298,8 +298,8 @@ def main():
     # Set up paths
     script_dir = Path(__file__).parent
     hw3_dir = script_dir.parent
-    data_dir = hw3_dir / "data"
-    results_dir = hw3_dir / "results"
+    data_dir = hw3_dir / "mine"
+    results_dir = hw3_dir / "my_results"
     results_dir.mkdir(exist_ok=True)
     
     # Load data splits

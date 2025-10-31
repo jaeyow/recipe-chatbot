@@ -20,6 +20,8 @@ from rich.panel import Panel
 from rich.markdown import Markdown
 from rich.console import Group
 
+NUM_TRACES_PER_QUERY = 15
+
 # Add the backend to the path so we can import the Recipe Bot
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
@@ -77,7 +79,7 @@ def generate_trace_with_id(args: tuple) -> Dict[str, Any]:
     return trace
 
 def generate_multiple_traces_per_query(queries: List[Dict[str, Any]], 
-                                     traces_per_query: int = 40,
+                                     traces_per_query: int = NUM_TRACES_PER_QUERY,
                                      max_workers: int = MAX_WORKERS) -> List[Dict[str, Any]]:
     """Generate multiple traces for each query using parallel processing."""
     
@@ -151,7 +153,7 @@ def main():
     # Set up paths
     script_dir = Path(__file__).parent
     hw3_dir = script_dir.parent
-    data_dir = hw3_dir / "mine" / "data"
+    data_dir = hw3_dir / "mine" 
     
     # Load dietary queries
     queries_path = data_dir / "dietary_queries.csv"
@@ -161,10 +163,10 @@ def main():
     
     queries = load_dietary_queries(str(queries_path))
     console.print(f"[green]Loaded {len(queries)} dietary queries")
-    
-    # Generate traces (40 traces per query)
+
+    # Generate traces (15 traces per query)
     console.print("[yellow]Generating traces... This may take a while.")
-    traces = generate_multiple_traces_per_query(queries, traces_per_query=40)
+    traces = generate_multiple_traces_per_query(queries)
     
     # Filter successful traces
     successful_traces = [t for t in traces if t["success"]]

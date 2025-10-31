@@ -1,0 +1,193 @@
+You are an expert nutritionist and dietary specialist evaluating whether recipe responses properly adhere to specified dietary restrictions.
+
+DIETARY RESTRICTION DEFINITIONS:
+- Vegan: No animal products (meat, dairy, eggs, honey, etc.)
+- Vegetarian: No meat or fish, but dairy and eggs are allowed
+- Gluten-free: No wheat, barley, rye, or other gluten-containing grains
+- Dairy-free: No milk, cheese, butter, yogurt, or other dairy products
+- Keto: Very low carb (typically <20g net carbs), high fat, moderate protein
+- Paleo: No grains, legumes, dairy, refined sugar, or processed foods
+- Pescatarian: No meat except fish and seafood
+- Kosher: Follows Jewish dietary laws (no pork, shellfish, mixing meat/dairy)
+- Halal: Follows Islamic dietary laws (no pork, alcohol, proper slaughter)
+- Nut-free: No tree nuts or peanuts
+- Low-carb: Significantly reduced carbohydrates (typically <50g per day)
+- Sugar-free: No added sugars or high-sugar ingredients
+- Raw vegan: Vegan foods not heated above 118°F (48°C)
+- Whole30: No grains, dairy, legumes, sugar, alcohol, or processed foods
+- Diabetic-friendly: Low glycemic index, controlled carbohydrates
+- Low-sodium: Reduced sodium content for heart health
+
+EVALUATION CRITERIA:
+- PASS: The recipe clearly adheres to the dietary preferences with appropriate ingredients and preparation methods
+- FAIL: The recipe contains ingredients or methods that violate the dietary preferences
+- Consider both explicit ingredients and cooking methods
+
+Here are some examples of how to evaluate dietary adherence:
+
+
+Example 1:
+Query: Trying to stay keto—got any easy dinner recipes that won’t blow my carbs for the day?
+Recipe Response: ## Keto-Friendly Miso-Glazed Black Cod
+
+Savor a luscious, buttery black cod fillet glazed with savory miso, creating a low-carb Japanese dinner that's incredibly flavorful and perfectly keto-friendly!
+
+### Ingredients
+
+- 2 black cod fillets (about 150g each)
+- 2 tbsp white miso paste
+- 1 tbsp sake
+- 1 tbsp mirin (use a low-carb mirin substitute if strict keto)
+- 1 tbsp erythritol or another keto-friendly sweetener
+- 1 tsp sesame oil
+- 1 tbsp vegetable oil or avocado oil for cooking
+- Steamed or sautéed bok choy or spinach, for serving
+- Sesame seeds, for garnish (optional)
+- Chopped green onions, for garnish (optional)
+
+### Instructions
+
+1. **Prepare the Miso Marinade:** In a small bowl, whisk together the miso paste, sake, mirin substitute, erythritol, and sesame oil until smooth.
+2. **Marinate the Cod:** Pat the cod fillets dry, then coat them generously with the miso marinade. Cover and refrigerate for at least 30 minutes, preferably 2 hours for deeper flavor.
+3. **Cook the Cod:** Heat the vegetable oil in a non-stick skillet over medium heat. Remove excess marinade from the cod (reserve it), and place the fillets skin-side down in the pan.
+4. **Pan-Sear:** Cook for about 4-5 minutes or until the skin is crispy. Flip the fillets carefully and cook for another 3-4 minutes until the fish is cooked through.
+5. **Glaze Finish:** Brush the reserved marinade over the fillets once more during the last minute of cooking to intensify flavor without burning.
+6. **Serve:** Plate the black cod with a side of steamed or sautéed low-carb greens like bok choy or spinach. Garnish with sesame seeds and green onions if desired.
+
+### Serving Size
+
+This recipe serves 2 people.
+
+---
+
+**Fun Tip:** For an even richer experience, serve your miso-glazed black cod with a small bowl of keto cauliflower rice to absorb those delicious miso flavors! Itadakimasu!
+Reasoning: The recipe for Keto-Friendly Miso-Glazed Black Cod adheres to the keto dietary restriction. The primary ingredients, such as black cod, miso paste, and keto-friendly sweeteners like erythritol, are suitable for a keto diet. The recipe suggests using a low-carb mirin substitute, which is crucial for maintaining low carbohydrate content. The use of sake is minimal, and while it contains some carbs, the overall impact on the dish's carb count is likely negligible, especially when considering the portion size. The recipe also includes low-carb vegetables like bok choy or spinach, which are appropriate for a keto diet. The cooking method of pan-searing the fish does not introduce any additional carbs. Overall, the recipe is well-suited for a keto diet, provided the mirin substitute is low-carb.
+Label: PASS
+
+Example 2:
+Query: Hey, I’m doing Whole30 and could use some easy dinner ideas that won’t mess up the plan. Got any good recipes?
+Recipe Response: ## Whole30-Friendly Ginger Miso Salmon with Sautéed Spinach
+
+Delight in a tangy, umami-packed salmon dish perfectly balanced with garlicky sautéed spinach, all compliant with Whole30 — simple, nutritious, and bursting with flavor!
+
+### Ingredients
+
+#### For the Ginger Miso Salmon:
+- 2 salmon fillets (about 150g each), skin on
+- 1 tbsp white miso paste (make sure it’s Whole30-compliant with no sugar or additives)
+- 1 tbsp coconut aminos
+- 1 tsp fresh ginger, grated
+- 1 garlic clove, minced
+- 1 tsp sesame oil (optional, for flavor)
+
+#### For the Sautéed Spinach:
+- 200g fresh spinach
+- 1 tbsp olive oil or avocado oil
+- 2 garlic cloves, thinly sliced
+- Salt and freshly ground black pepper, to taste
+- A squeeze of lemon juice (optional)
+
+### Instructions
+
+1. **Prepare the Marinade:** In a small bowl, mix the miso paste, coconut aminos, grated ginger, minced garlic, and sesame oil until well combined.
+2. **Marinate the Salmon:** Pat the salmon fillets dry with paper towels, then brush the marinade generously over the top of the fillets. Set aside while you prepare the spinach.
+3. **Cook the Salmon:** Heat a non-stick skillet over medium heat. Place the salmon fillets skin-side down and cook for about 4-5 minutes until the skin is crispy and the salmon is cooked halfway through. Flip and cook for another 2-3 minutes until cooked to your liking. Remove from heat and set aside.
+4. **Sauté the Spinach:** In a large skillet, heat olive or avocado oil over medium heat. Add sliced garlic and sauté until fragrant but not browned, about 1 minute.
+5. **Add Spinach:** Toss in the spinach and stir continuously until wilted, about 2-3 minutes. Season with salt, pepper, and a squeeze of lemon juice if desired.
+6. **Serve:** Plate the salmon alongside the sautéed spinach for a quick, wholesome dinner.
+
+### Serving Size
+
+This recipe serves 2 people.
+
+---
+
+**Fun Tip:** Try switching up your leafy greens—kale or Swiss chard also work wonderfully sautéed with garlic for variety! Itadakimasu!
+Reasoning: The recipe for Ginger Miso Salmon with Sautéed Spinach is intended to be Whole30-compliant. However, it includes white miso paste, which is typically made from fermented soybeans and often contains rice or barley, both of which are not allowed on the Whole30 program. Even if the miso paste is labeled as Whole30-compliant, it is generally difficult to find miso paste that meets the strict Whole30 guidelines due to the presence of soy and potential additives. Additionally, sesame oil is used, which is not explicitly prohibited but is generally avoided on Whole30 due to its seed oil nature. The rest of the ingredients, such as salmon, coconut aminos, fresh ginger, garlic, spinach, olive oil, and lemon juice, are compliant. However, due to the inclusion of miso paste, the recipe does not fully adhere to Whole30 guidelines.
+Label: FAIL
+
+Example 3:
+Query: Looking for some easy raw vegan snacks I can prep quickly, any suggestions?
+Recipe Response: ## Fresh Edamame and Seaweed Salad
+
+Dive into a light and refreshing raw vegan snack inspired by traditional Japanese flavors, ready in minutes and packed with nutrients!
+
+### Ingredients
+
+- 150g fresh edamame pods (raw, shelled)
+- 10g dried wakame seaweed
+- 1 tbsp rice vinegar
+- 1 tsp toasted sesame oil
+- 1 tsp tamari or soy sauce (use gluten-free if preferred)
+- 1/2 tsp maple syrup or agave nectar
+- 1 small cucumber, thinly sliced
+- 1 tbsp toasted sesame seeds
+- 1 spring onion, finely chopped
+
+### Instructions
+
+1. **Prepare Wakame:** Soak the dried wakame seaweed in cold water for about 10 minutes until rehydrated and expanded. Drain and gently squeeze out excess water.
+2. **Steam or Blanch Edamame:** For a raw vegan version strictly uncooked, you can use raw, shelled edamame if available; otherwise, briefly blanch the edamame in hot water for 2-3 minutes, then cool immediately in ice water to keep it crisp.
+3. **Make Dressing:** In a small bowl, whisk together rice vinegar, toasted sesame oil, tamari, and maple syrup until well combined.
+4. **Assemble:** In a mixing bowl, combine the edamame, wakame, and cucumber slices. Pour over the dressing and toss gently to coat evenly.
+5. **Garnish:** Sprinkle with toasted sesame seeds and chopped spring onion for added flavor and crunch.
+
+### Serving Size
+
+This recipe serves 2 people as a light snack.
+
+---
+
+**Fun Tip:** To add an extra burst of flavor, sprinkle a bit of shichimi togarashi spice mix over the salad for a mild kick that wakes up the palate! Itadakimasu!
+Reasoning: The recipe is intended to be raw vegan, but there are several issues that prevent it from fully adhering to the raw vegan dietary restriction. Firstly, the use of toasted sesame oil and toasted sesame seeds is not compliant with raw vegan guidelines, as these ingredients are typically heated above 118°F during processing. Additionally, the recipe suggests blanching the edamame, which involves cooking it in hot water, thus violating the raw aspect of the diet. While the recipe does mention using raw, shelled edamame if available, the inclusion of a cooking method that involves heat is not suitable for a strict raw vegan diet. Furthermore, the use of tamari or soy sauce may also be problematic, as these are often pasteurized or processed at high temperatures, unless specifically labeled as raw. Therefore, the recipe does not fully meet the raw vegan criteria.
+Label: FAIL
+
+Example 4:
+Query: Hey, can you suggest some easy low-sodium meals? Trying to watch my salt intake.
+Recipe Response: ## Miso Glazed Eggplant (Low-Sodium & Vegetarian)
+
+Delight in a savory-sweet miso glazed eggplant dish that's bursting with umami flavors but gentle on your sodium intake—perfect for a healthy and satisfying meal.
+
+### Ingredients
+
+- 1 large Japanese eggplant (about 300g), sliced into 1/2-inch rounds
+- 1 tbsp low-sodium white miso paste
+- 1 tbsp mirin (sweet rice wine)
+- 1 tbsp sake or water
+- 1 tsp honey or maple syrup
+- 1 tsp grated fresh ginger
+- 1 tsp toasted sesame oil
+- 1 tsp rice vinegar
+- 1 tsp sesame seeds, for garnish
+- 1 green onion, finely chopped, for garnish
+- 1 tbsp neutral oil (such as canola or vegetable oil) for cooking
+
+### Instructions
+
+1. **Prepare the glaze:** In a small bowl, whisk together the low-sodium white miso paste, mirin, sake (or water), honey, grated ginger, toasted sesame oil, and rice vinegar until smooth and well combined. Set aside.
+2. **Cook the eggplant:** Heat the neutral oil in a non-stick skillet over medium heat. Add the eggplant slices, cooking for about 3-4 minutes on each side, until they become tender and lightly browned.
+3. **Glaze the eggplant:** Lower the heat to medium-low, then brush each eggplant slice generously with the miso glaze. Cook for another 1-2 minutes per side, allowing the glaze to caramelize slightly but not burn.
+4. **Serve:** Transfer the glazed eggplant slices to a serving plate. Sprinkle with sesame seeds and chopped green onions for a fresh finish.
+
+### Serving Size
+
+This recipe serves 2 people.
+
+---
+
+**Fun Tip:** Serve this miso glazed eggplant alongside steamed brown rice or quinoa for a wholesome, balanced meal that's low in sodium but rich in flavor. Itadakimasu!
+Reasoning: The recipe for Miso Glazed Eggplant is intended to be low-sodium, but there are concerns regarding the sodium content of certain ingredients. While the recipe uses low-sodium white miso paste, miso is inherently high in sodium, even in its low-sodium form. Additionally, mirin and sake can also contribute to the sodium content, although they are not typically high in sodium. The recipe does not specify the sodium content of these ingredients, which makes it difficult to ensure that the overall dish is truly low in sodium. The use of honey or maple syrup, ginger, sesame oil, rice vinegar, sesame seeds, and green onion do not contribute significantly to sodium levels. However, the reliance on miso as a primary flavoring agent is problematic for a low-sodium diet.
+Label: FAIL
+
+
+Now evaluate the following recipe response:
+
+Query: __QUERY__
+Dietary Restriction: __DIETARY_RESTRICTION__
+Recipe Response: __RESPONSE__
+
+Provide your evaluation in the following JSON format:
+{
+    "reasoning": "Detailed explanation of your evaluation, citing specific ingredients or methods",
+    "label": "PASS" or "FAIL"
+}
