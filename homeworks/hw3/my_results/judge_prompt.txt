@@ -1,22 +1,37 @@
 You are an expert nutritionist and dietary specialist evaluating whether recipe responses properly adhere to specified dietary restrictions.
 
 DIETARY RESTRICTION DEFINITIONS:
-- Vegan: No animal products (meat, dairy, eggs, honey, etc.)
-- Vegetarian: No meat or fish, but dairy and eggs are allowed
-- Gluten-free: No wheat, barley, rye, or other gluten-containing grains
-- Dairy-free: No milk, cheese, butter, yogurt, or other dairy products
-- Keto: Very low carb (typically <20g net carbs), high fat, moderate protein
-- Paleo: No grains, legumes, dairy, refined sugar, or processed foods
-- Pescatarian: No meat except fish and seafood
-- Kosher: Follows Jewish dietary laws (no pork, shellfish, mixing meat/dairy)
-- Halal: Follows Islamic dietary laws (no pork, alcohol, proper slaughter)
-- Nut-free: No tree nuts or peanuts
-- Low-carb: Significantly reduced carbohydrates (typically <50g per day)
-- Sugar-free: No added sugars or high-sugar ingredients
-- Raw vegan: Vegan foods not heated above 118°F (48°C)
-- Whole30: No grains, dairy, legumes, sugar, alcohol, or processed foods
-- Diabetic-friendly: Low glycemic index, controlled carbohydrates
-- Low-sodium: Reduced sodium content for heart health
+- Vegan: Strictly no animal products or byproducts. Excludes: all meat, poultry, fish, seafood, dairy (milk, cheese, butter, yogurt, cream), eggs, honey, gelatin, animal-derived additives (like carmine, shellac), bone char-filtered sugar. Also avoid hidden animal ingredients in processed foods, wine/beer processed with animal products.
+
+- Vegetarian: No meat, poultry, fish, or seafood, but dairy and eggs are permitted. Excludes: beef, pork, lamb, chicken, turkey, fish, shellfish, meat-based broths/stocks, gelatin, rennet in some cheeses, anchovies in worcestershire sauce. Includes: dairy products, eggs, plant-based foods.
+
+- Gluten-free: No gluten-containing grains or cross-contaminated products. Excludes: wheat, barley, rye, triticale, spelt, kamut, bulgur, semolina, durum, farro, wheat starch, malt (barley-based), brewer's yeast, soy sauce (unless gluten-free), oats (unless certified gluten-free), modified food starch (if wheat-based). Safe alternatives: rice, quinoa, corn, buckwheat, millet, certified gluten-free oats.
+
+- Dairy-free: No milk or milk-derived products from any animal. Excludes: cow, goat, sheep milk, cheese, butter, cream, yogurt, ice cream, whey, casein, lactose, ghee (unless clarified to remove all milk proteins), milk chocolate. Hidden sources: baked goods, processed meats, margarine, some medications.
+
+- Keto: Very low carbohydrate (<20-50g net carbs daily), high fat (70-80%), moderate protein (15-25%). Focus on: meat, fish, eggs, full-fat dairy, oils, nuts, seeds, low-carb vegetables (leafy greens, broccoli, cauliflower). Avoid: grains, sugar, most fruits (except small amounts of berries), starchy vegetables (potatoes, corn), legumes, high-carb foods.
+
+- Paleo: Foods presumed available to Paleolithic humans. Includes: meat, fish, eggs, vegetables, fruits, nuts, seeds, herbs, spices, healthy oils. Excludes: grains (wheat, rice, oats), legumes (beans, lentils, peanuts, soy), dairy, refined sugar, processed foods, vegetable oils (corn, soy, canola), artificial additives, potatoes (some variations allow).
+
+- Pescatarian: Vegetarian diet that includes fish and seafood but excludes meat and poultry. Includes: fish, shellfish, dairy, eggs, plant foods. Excludes: beef, pork, lamb, chicken, turkey, game meat, meat-based broths. Note: some pescatarians may avoid certain fish for sustainability reasons.
+
+- Kosher: Follows Jewish dietary laws (Kashrut). Key rules: no pork or shellfish, no mixing of meat and dairy in same meal, animals must be slaughtered according to specific methods, only fish with fins and scales, no birds of prey, requires rabbinical supervision for processed foods. Meat and dairy require separate preparation and serving.
+
+- Halal: Follows Islamic dietary laws. Excludes: pork and pork products, alcohol and alcohol-based ingredients, animals not slaughtered according to Islamic law (zabiha), carnivorous animals, birds of prey, animals that died naturally, blood. Requires: proper slaughter methods, avoiding cross-contamination with haram (forbidden) foods.
+
+- Nut-free: No tree nuts or peanuts due to allergy concerns. Excludes: almonds, walnuts, cashews, pistachios, pecans, hazelnuts, Brazil nuts, macadamia nuts, pine nuts, peanuts (technically legumes), and products processed in facilities with nuts. Check labels for "may contain nuts" warnings. Seeds (sunflower, pumpkin) are typically allowed unless specified otherwise.
+
+- Low-carb: Significantly reduced carbohydrate intake, typically 20-100g per day depending on individual goals. Focus on: protein, healthy fats, non-starchy vegetables. Limit: grains, sugar, starchy vegetables, most fruits, legumes. More flexible than keto, allowing moderate amounts of berries, sweet potatoes, quinoa in some variations.
+
+- Sugar-free: No added sugars or high-sugar ingredients. Excludes: table sugar, brown sugar, honey, maple syrup, agave, high fructose corn syrup, artificial sweeteners (depending on interpretation), dried fruits, fruit juices, sugary condiments. Focus on whole foods, may allow natural fruit sugars in moderation and sugar alcohols/stevia depending on interpretation.
+
+- Raw vegan: Vegan foods not heated above 104-118°F (40-48°C) to preserve enzymes and nutrients. Includes: fresh fruits, vegetables, sprouted grains/legumes, raw nuts/seeds, cold-pressed oils, fermented foods, dehydrated foods below temperature threshold. Excludes: cooked foods, pasteurized products, roasted nuts, baked goods. Preparation methods: sprouting, fermenting, dehydrating, blending, juicing.
+
+- Whole30: 30-day elimination diet excluding inflammatory foods. Excludes: grains (wheat, rice, oats, quinoa), legumes (beans, peanuts, soy), dairy, added sugars (natural and artificial), alcohol, carrageenan, MSG, sulfites, junk food recreations even with compliant ingredients. Includes: meat, seafood, eggs, vegetables, fruits, compliant fats (olive oil, coconut oil), herbs, spices.
+
+- Diabetic-friendly: Foods that help manage blood sugar levels and support diabetes management. Focus on: low glycemic index foods, high fiber, lean proteins, healthy fats, controlled portions. Limit: refined sugars, high-glycemic carbs, processed foods, sugary drinks. Emphasize: non-starchy vegetables, whole grains in moderation, lean meats, fish, legumes, nuts in controlled portions.
+
+- Low-sodium: Reduced sodium intake for cardiovascular health, typically <2300mg daily (ideally <1500mg). Avoid: processed foods, cured meats, canned soups, restaurant foods, added salt, high-sodium condiments (soy sauce, worcestershire), pickled foods, cheese. Focus on: fresh ingredients, herbs/spices for flavor, homemade preparations, reading nutrition labels, rinsing canned goods.
 
 EVALUATION CRITERIA:
 - PASS: The recipe clearly adheres to the dietary preferences with appropriate ingredients and preparation methods
@@ -27,32 +42,75 @@ Here are some examples of how to evaluate dietary adherence:
 
 
 Example 1:
-Query: Trying to stay keto—got any easy dinner recipes that won’t blow my carbs for the day?
-Recipe Response: ## Keto-Friendly Miso-Glazed Black Cod
+Query: Hey, can you suggest some easy nut-free snacks for my kids?
+Recipe Response: ## Crispy Japanese Rice Crackers (Arare) – Nut-Free Kid-Friendly Snack
 
-Savor a luscious, buttery black cod fillet glazed with savory miso, creating a low-carb Japanese dinner that's incredibly flavorful and perfectly keto-friendly!
+Delight your kids with these crunchy, savory Japanese rice crackers that are easy to make, nut-free, and perfect for snacking anytime!
 
 ### Ingredients
-
-- 2 black cod fillets (about 150g each)
-- 2 tbsp white miso paste
-- 1 tbsp sake
-- 1 tbsp mirin (use a low-carb mirin substitute if strict keto)
-- 1 tbsp erythritol or another keto-friendly sweetener
-- 1 tsp sesame oil
-- 1 tbsp vegetable oil or avocado oil for cooking
-- Steamed or sautéed bok choy or spinach, for serving
-- Sesame seeds, for garnish (optional)
-- Chopped green onions, for garnish (optional)
+- 1 cup cooked Japanese short-grain rice (preferably freshly cooked and slightly cooled)
+- 1 tbsp soy sauce (use gluten-free if needed)
+- 1 tsp sugar
+- 1 tsp sesame oil (optional for flavor)
+- 1/2 tsp salt
+- Vegetable oil for frying
 
 ### Instructions
 
-1. **Prepare the Miso Marinade:** In a small bowl, whisk together the miso paste, sake, mirin substitute, erythritol, and sesame oil until smooth.
-2. **Marinate the Cod:** Pat the cod fillets dry, then coat them generously with the miso marinade. Cover and refrigerate for at least 30 minutes, preferably 2 hours for deeper flavor.
-3. **Cook the Cod:** Heat the vegetable oil in a non-stick skillet over medium heat. Remove excess marinade from the cod (reserve it), and place the fillets skin-side down in the pan.
-4. **Pan-Sear:** Cook for about 4-5 minutes or until the skin is crispy. Flip the fillets carefully and cook for another 3-4 minutes until the fish is cooked through.
-5. **Glaze Finish:** Brush the reserved marinade over the fillets once more during the last minute of cooking to intensify flavor without burning.
-6. **Serve:** Plate the black cod with a side of steamed or sautéed low-carb greens like bok choy or spinach. Garnish with sesame seeds and green onions if desired.
+1. **Prepare the Rice:** After cooking your short-grain rice, let it cool slightly so it’s still sticky but manageable.
+2. **Mix Seasonings:** In a small bowl, mix soy sauce, sugar, sesame oil (if using), and salt until the sugar dissolves.
+3. **Flavor the Rice:** Gently mix the cooked rice with the soy sauce mixture, ensuring the rice is evenly coated without mashing the grains.
+4. **Shape the Crackers:** Wet your hands, scoop small tablespoon-sized amounts of rice, and flatten them into thin, small rounds or shapes on a clean surface. The thinner, the crispier!
+5. **Dry the Rice Shapes:** Arrange the shaped rice crackers on a baking tray lined with parchment paper. Let them air dry for several hours or overnight to reduce moisture. Alternatively, you can dry them in a low oven (around 120°C/250°F) for about 30-40 minutes, flipping halfway.
+6. **Fry the Crackers:** Heat vegetable oil in a deep pan over medium heat. Fry the rice crackers in batches until they puff up slightly and turn golden brown (about 1-2 minutes). Remove and drain on paper towels.
+7. **Cool and Serve:** Allow crackers to cool completely before serving to kids.
+
+### Serving Size
+
+This recipe makes approximately 20-25 rice crackers, perfect for 2 kids’ snack portions.
+
+---
+
+**Fun Tip:** Let your kids help shape the rice crackers into fun animal or star shapes before drying—making snack time creative and interactive! Itadakimasu!
+Reasoning: The recipe for Crispy Japanese Rice Crackers (Arare) adheres to the nut-free dietary restriction. The ingredients listed include cooked Japanese short-grain rice, soy sauce, sugar, sesame oil, salt, and vegetable oil, none of which are nuts or derived from nuts. The preparation method involves mixing, shaping, drying, and frying the rice crackers, which does not introduce any nut-based ingredients. Additionally, the recipe explicitly states it is nut-free, and there are no hidden sources of nuts in the ingredients or cooking process.
+Label: PASS
+
+Example 2:
+Query: Looking for some easy dairy-free dinner ideas, anything tasty and quick?
+Recipe Response: ## Miso Glazed Salmon with Sautéed Spinach and Mushrooms (Dairy-Free)
+
+This quick and flavorful miso-glazed salmon pairs perfectly with sautéed spinach and mushrooms, making for a healthy and delicious dairy-free dinner that’s ready in under 30 minutes!
+
+### Ingredients
+
+#### For the Miso Glazed Salmon:
+- 2 salmon fillets (approx. 150g each)
+- 1 tbsp white miso paste
+- 1 tbsp mirin (sweet rice wine)
+- 1 tbsp soy sauce or tamari (for gluten-free)
+- 1 tsp maple syrup or honey
+- 1 tsp sesame oil
+- 1 garlic clove, minced
+- 1 tsp grated fresh ginger
+
+#### For the Sautéed Spinach and Mushrooms:
+- 1 tbsp sesame oil or olive oil
+- 2 garlic cloves, thinly sliced
+- 150g fresh spinach
+- 100g shiitake or button mushrooms, thinly sliced
+- 1 tbsp soy sauce or tamari
+- Freshly ground black pepper, to taste
+- Toasted sesame seeds, for garnish
+
+### Instructions
+
+1. **Prepare the Miso Glaze:** In a small bowl, whisk together the miso paste, mirin, soy sauce, maple syrup, sesame oil, garlic, and ginger until smooth.
+2. **Marinate the Salmon:** Place the salmon fillets in a shallow dish and spoon the miso glaze over them, making sure to coat the tops evenly. Let marinate for 10 minutes at room temperature.
+3. **Cook the Salmon:** Heat a non-stick skillet over medium heat. Place the salmon fillets skin-side down and cook for about 4-5 minutes until the skin is crispy. Carefully flip and cook for another 3-4 minutes until the salmon is cooked through and caramelized with the glaze.
+4. **Sauté the Vegetables:** While the salmon cooks, heat sesame oil in another pan over medium-high heat. Add garlic slices and sauté until fragrant (about 30 seconds).
+5. **Add Mushrooms:** Toss in the sliced mushrooms and cook for 4-5 minutes until they start to brown and soften.
+6. **Add Spinach and Season:** Add the spinach and soy sauce to the pan. Stir and cook until the spinach wilts, about 2 minutes. Season with freshly ground black pepper.
+7. **Serve:** Plate the salmon fillets with the sautéed spinach and mushrooms alongside. Sprinkle toasted sesame seeds over the top for a lovely nutty flavor.
 
 ### Serving Size
 
@@ -60,11 +118,168 @@ This recipe serves 2 people.
 
 ---
 
-**Fun Tip:** For an even richer experience, serve your miso-glazed black cod with a small bowl of keto cauliflower rice to absorb those delicious miso flavors! Itadakimasu!
-Reasoning: The recipe for Keto-Friendly Miso-Glazed Black Cod adheres to the keto dietary restriction. The primary ingredients, such as black cod, miso paste, and keto-friendly sweeteners like erythritol, are suitable for a keto diet. The recipe suggests using a low-carb mirin substitute, which is crucial for maintaining low carbohydrate content. The use of sake is minimal, and while it contains some carbs, the overall impact on the dish's carb count is likely negligible, especially when considering the portion size. The recipe also includes low-carb vegetables like bok choy or spinach, which are appropriate for a keto diet. The cooking method of pan-searing the fish does not introduce any additional carbs. Overall, the recipe is well-suited for a keto diet, provided the mirin substitute is low-carb.
+**Fun Tip:** To add a little crunch, sprinkle some toasted nori flakes (seaweed) on top just before serving! It brings an extra ocean flavor that complements the salmon beautifully. Itadakimasu!
+Reasoning: The recipe for Miso Glazed Salmon with Sautéed Spinach and Mushrooms adheres to the dairy-free dietary restriction. The ingredients listed do not include any dairy products such as milk, cheese, butter, or yogurt. The recipe uses sesame oil and olive oil instead of butter for cooking, and there are no dairy-based sauces or dressings involved. The use of miso paste, soy sauce, and other flavorings are all compatible with a dairy-free diet. The preparation methods do not introduce any dairy elements either.
 Label: PASS
 
-Example 2:
+Example 3:
+Query: Hey, do you have any easy vegan recipes for a weeknight dinner? Something quick and tasty would be great!
+Recipe Response: ## Quick Vegan Japanese Yasai Itame (Stir-Fried Vegetables)
+
+Bright, colorful, and packed with savory umami flavors, this quick vegan Yasai Itame is the perfect weeknight dinner that comes together in under 20 minutes and is delightfully healthy and satisfying.
+
+### Ingredients
+
+- 1 tbsp sesame oil
+- 2 garlic cloves, minced
+- 1-inch piece ginger, grated
+- 1 small onion, thinly sliced
+- 1 medium carrot, julienned
+- 1 small bell pepper (red or yellow), thinly sliced
+- 100g shiitake mushrooms, sliced
+- 100g broccoli florets
+- 100g snap peas, trimmed
+- 2 tbsp soy sauce (or tamari for gluten-free)
+- 1 tbsp mirin
+- 1 tsp toasted sesame seeds, for garnish
+- 2 spring onions, finely chopped, for garnish
+- Cooked white or brown rice, to serve (optional)
+
+### Instructions
+
+1. **Prepare Ingredients:** Have all vegetables washed, sliced, and ready to go as this stir-fry cooks quickly.
+2. **Heat Oil:** Warm sesame oil in a large skillet or wok over medium-high heat.
+3. **Sauté Aromatics:** Add minced garlic and grated ginger, and stir-fry for about 30 seconds until fragrant but not browned.
+4. **Cook Vegetables:** Toss in the onion, carrot, bell pepper, mushrooms, broccoli, and snap peas. Stir-fry continuously for 5-7 minutes, or until the vegetables are crisp-tender but still vibrant.
+5. **Add Seasonings:** Pour in soy sauce and mirin, stirring to coat all the vegetables evenly. Cook for another 1-2 minutes so the sauce reduces slightly.
+6. **Finish and Serve:** Remove from heat and sprinkle with toasted sesame seeds and chopped spring onions. Serve hot with steamed rice if desired.
+
+### Serving Size
+
+This recipe serves 2 people.
+
+---
+
+**Fun Tip:** To add a little extra protein, toss in some cubed firm tofu or edamame during the stir-fry for a heartier meal. The mirin adds a delicate sweetness that balances the savory soy, making this dish totally crave-worthy! Itadakimasu!
+Reasoning: The recipe for Quick Vegan Japanese Yasai Itame adheres to the vegan dietary restriction. All the ingredients listed, including sesame oil, garlic, ginger, onion, carrot, bell pepper, shiitake mushrooms, broccoli, snap peas, soy sauce, mirin, sesame seeds, and spring onions, are plant-based and do not include any animal products. The optional suggestion to add tofu or edamame for extra protein is also vegan-friendly. The cooking methods described do not involve any non-vegan practices. Therefore, the recipe is suitable for a vegan diet.
+Label: PASS
+
+Example 4:
+Query: Got any easy kosher chicken recipes? Want something quick for dinner tonight.
+Recipe Response: ## Teriyaki Chicken Donburi (Quick Kosher Dinner)
+
+Savor a quick and easy teriyaki chicken donburi bowl that's bursting with sweet and savory flavors, perfect for a wholesome, kosher weeknight dinner in under 30 minutes!
+
+### Ingredients
+
+- 300g boneless, skinless chicken thighs or breasts, cut into bite-sized pieces (kosher-certified)
+- 2 tbsp soy sauce (ensure kosher certification)
+- 2 tbsp mirin (sweet rice wine, kosher-certified)
+- 1 tbsp sake or water (kosher)
+- 1 tbsp brown sugar
+- 1 tbsp vegetable oil
+- 1 garlic clove, minced
+- 1 tsp fresh ginger, grated
+- 1/2 cup water
+- 1 tsp cornstarch mixed with 2 tbsp water (optional, to thicken sauce)
+- 1 cup steamed white rice or brown rice
+- 1 spring onion, sliced thinly
+- Sesame seeds, for garnish (optional)
+- Pickled ginger, for serving (optional)
+
+### Instructions
+
+1. **Prepare the Teriyaki Sauce:** In a small bowl, mix together soy sauce, mirin, sake (or water), brown sugar, garlic, and ginger until sugar dissolves.
+2. **Cook the Chicken:** Heat vegetable oil in a large skillet over medium-high heat. Add the chicken pieces and sauté until they begin to brown and are nearly cooked through, about 6-7 minutes.
+3. **Add Sauce to Chicken:** Pour the teriyaki sauce over the chicken in the skillet. Add 1/2 cup water and bring to a simmer.
+4. **Simmer the Sauce:** Let the chicken cook in the sauce for another 5 minutes, turning occasionally, until the sauce thickens slightly and glazes the chicken. If you prefer thicker sauce, stir in the cornstarch slurry and cook for another 1-2 minutes until sauce thickens.
+5. **Prepare the Rice:** While cooking chicken, steam rice according to package instructions.
+6. **Serve:** Scoop rice into bowls, top with teriyaki chicken, garnish with sliced spring onion and a sprinkle of sesame seeds. Add pickled ginger on the side if you like.
+
+### Serving Size
+
+This recipe serves 2 people.
+
+---
+
+**Fun Tip:** For an added crunch and color contrast, toss some steamed or sautéed broccoli or snap peas alongside your chicken donburi. It adds a fresh, vibrant touch! Itadakimasu!
+Reasoning: The recipe for Teriyaki Chicken Donburi adheres to kosher dietary restrictions as long as all ingredients are certified kosher. The recipe specifies the use of kosher-certified chicken and soy sauce, which is crucial. Mirin and sake are typically not kosher, but the recipe suggests using kosher-certified mirin and offers water as an alternative to sake, which is acceptable. The preparation method does not involve mixing meat and dairy, which is a key consideration in kosher cooking. Additionally, there are no non-kosher ingredients like shellfish or pork. The use of vegetable oil, garlic, ginger, and other ingredients is permissible under kosher laws, provided they are certified kosher. Therefore, the recipe can be considered kosher if all ingredients are verified as such.
+Label: PASS
+
+Example 5:
+Query: Hey, can you suggest some easy low-sodium meals? Trying to watch my salt intake.
+Recipe Response: ## Miso Glazed Eggplant (Low-Sodium & Vegetarian)
+
+Delight in a savory-sweet miso glazed eggplant dish that's bursting with umami flavors but gentle on your sodium intake—perfect for a healthy and satisfying meal.
+
+### Ingredients
+
+- 1 large Japanese eggplant (about 300g), sliced into 1/2-inch rounds
+- 1 tbsp low-sodium white miso paste
+- 1 tbsp mirin (sweet rice wine)
+- 1 tbsp sake or water
+- 1 tsp honey or maple syrup
+- 1 tsp grated fresh ginger
+- 1 tsp toasted sesame oil
+- 1 tsp rice vinegar
+- 1 tsp sesame seeds, for garnish
+- 1 green onion, finely chopped, for garnish
+- 1 tbsp neutral oil (such as canola or vegetable oil) for cooking
+
+### Instructions
+
+1. **Prepare the glaze:** In a small bowl, whisk together the low-sodium white miso paste, mirin, sake (or water), honey, grated ginger, toasted sesame oil, and rice vinegar until smooth and well combined. Set aside.
+2. **Cook the eggplant:** Heat the neutral oil in a non-stick skillet over medium heat. Add the eggplant slices, cooking for about 3-4 minutes on each side, until they become tender and lightly browned.
+3. **Glaze the eggplant:** Lower the heat to medium-low, then brush each eggplant slice generously with the miso glaze. Cook for another 1-2 minutes per side, allowing the glaze to caramelize slightly but not burn.
+4. **Serve:** Transfer the glazed eggplant slices to a serving plate. Sprinkle with sesame seeds and chopped green onions for a fresh finish.
+
+### Serving Size
+
+This recipe serves 2 people.
+
+---
+
+**Fun Tip:** Serve this miso glazed eggplant alongside steamed brown rice or quinoa for a wholesome, balanced meal that's low in sodium but rich in flavor. Itadakimasu!
+Reasoning: The recipe for Miso Glazed Eggplant is intended to be low-sodium, but there are concerns regarding the sodium content of certain ingredients. While the recipe uses low-sodium white miso paste, miso is inherently high in sodium, even in its low-sodium form. Additionally, mirin and sake can also contribute to the sodium content, although they are not typically high in sodium. The recipe does not specify the sodium content of these ingredients, which makes it difficult to ensure that the overall dish is truly low in sodium. The use of honey or maple syrup, ginger, sesame oil, rice vinegar, sesame seeds, and green onion do not contribute significantly to sodium levels. However, the reliance on miso as a primary flavoring agent is problematic for a low-sodium diet.
+Label: FAIL
+
+Example 6:
+Query: Looking for some easy raw vegan snacks I can prep quickly, any suggestions?
+Recipe Response: ## Fresh Edamame and Seaweed Salad
+
+Dive into a light and refreshing raw vegan snack inspired by traditional Japanese flavors, ready in minutes and packed with nutrients!
+
+### Ingredients
+
+- 150g fresh edamame pods (raw, shelled)
+- 10g dried wakame seaweed
+- 1 tbsp rice vinegar
+- 1 tsp toasted sesame oil
+- 1 tsp tamari or soy sauce (use gluten-free if preferred)
+- 1/2 tsp maple syrup or agave nectar
+- 1 small cucumber, thinly sliced
+- 1 tbsp toasted sesame seeds
+- 1 spring onion, finely chopped
+
+### Instructions
+
+1. **Prepare Wakame:** Soak the dried wakame seaweed in cold water for about 10 minutes until rehydrated and expanded. Drain and gently squeeze out excess water.
+2. **Steam or Blanch Edamame:** For a raw vegan version strictly uncooked, you can use raw, shelled edamame if available; otherwise, briefly blanch the edamame in hot water for 2-3 minutes, then cool immediately in ice water to keep it crisp.
+3. **Make Dressing:** In a small bowl, whisk together rice vinegar, toasted sesame oil, tamari, and maple syrup until well combined.
+4. **Assemble:** In a mixing bowl, combine the edamame, wakame, and cucumber slices. Pour over the dressing and toss gently to coat evenly.
+5. **Garnish:** Sprinkle with toasted sesame seeds and chopped spring onion for added flavor and crunch.
+
+### Serving Size
+
+This recipe serves 2 people as a light snack.
+
+---
+
+**Fun Tip:** To add an extra burst of flavor, sprinkle a bit of shichimi togarashi spice mix over the salad for a mild kick that wakes up the palate! Itadakimasu!
+Reasoning: The recipe is intended to be raw vegan, but there are several issues that prevent it from fully adhering to the raw vegan dietary restriction. Firstly, the use of toasted sesame oil and toasted sesame seeds is not compliant with raw vegan guidelines, as these ingredients are typically heated above 118°F during processing. Additionally, the recipe suggests blanching the edamame, which involves cooking it in hot water, thus violating the raw aspect of the diet. While the recipe does mention using raw, shelled edamame if available, the inclusion of a cooking method that involves heat is not suitable for a strict raw vegan diet. Furthermore, the use of tamari or soy sauce may also be problematic, as these are often pasteurized or processed at high temperatures, unless specifically labeled as raw. Therefore, the recipe does not fully meet the raw vegan criteria.
+Label: FAIL
+
+Example 7:
 Query: Hey, I’m doing Whole30 and could use some easy dinner ideas that won’t mess up the plan. Got any good recipes?
 Recipe Response: ## Whole30-Friendly Ginger Miso Salmon with Sautéed Spinach
 
@@ -104,79 +319,6 @@ This recipe serves 2 people.
 
 **Fun Tip:** Try switching up your leafy greens—kale or Swiss chard also work wonderfully sautéed with garlic for variety! Itadakimasu!
 Reasoning: The recipe for Ginger Miso Salmon with Sautéed Spinach is intended to be Whole30-compliant. However, it includes white miso paste, which is typically made from fermented soybeans and often contains rice or barley, both of which are not allowed on the Whole30 program. Even if the miso paste is labeled as Whole30-compliant, it is generally difficult to find miso paste that meets the strict Whole30 guidelines due to the presence of soy and potential additives. Additionally, sesame oil is used, which is not explicitly prohibited but is generally avoided on Whole30 due to its seed oil nature. The rest of the ingredients, such as salmon, coconut aminos, fresh ginger, garlic, spinach, olive oil, and lemon juice, are compliant. However, due to the inclusion of miso paste, the recipe does not fully adhere to Whole30 guidelines.
-Label: FAIL
-
-Example 3:
-Query: Looking for some easy raw vegan snacks I can prep quickly, any suggestions?
-Recipe Response: ## Fresh Edamame and Seaweed Salad
-
-Dive into a light and refreshing raw vegan snack inspired by traditional Japanese flavors, ready in minutes and packed with nutrients!
-
-### Ingredients
-
-- 150g fresh edamame pods (raw, shelled)
-- 10g dried wakame seaweed
-- 1 tbsp rice vinegar
-- 1 tsp toasted sesame oil
-- 1 tsp tamari or soy sauce (use gluten-free if preferred)
-- 1/2 tsp maple syrup or agave nectar
-- 1 small cucumber, thinly sliced
-- 1 tbsp toasted sesame seeds
-- 1 spring onion, finely chopped
-
-### Instructions
-
-1. **Prepare Wakame:** Soak the dried wakame seaweed in cold water for about 10 minutes until rehydrated and expanded. Drain and gently squeeze out excess water.
-2. **Steam or Blanch Edamame:** For a raw vegan version strictly uncooked, you can use raw, shelled edamame if available; otherwise, briefly blanch the edamame in hot water for 2-3 minutes, then cool immediately in ice water to keep it crisp.
-3. **Make Dressing:** In a small bowl, whisk together rice vinegar, toasted sesame oil, tamari, and maple syrup until well combined.
-4. **Assemble:** In a mixing bowl, combine the edamame, wakame, and cucumber slices. Pour over the dressing and toss gently to coat evenly.
-5. **Garnish:** Sprinkle with toasted sesame seeds and chopped spring onion for added flavor and crunch.
-
-### Serving Size
-
-This recipe serves 2 people as a light snack.
-
----
-
-**Fun Tip:** To add an extra burst of flavor, sprinkle a bit of shichimi togarashi spice mix over the salad for a mild kick that wakes up the palate! Itadakimasu!
-Reasoning: The recipe is intended to be raw vegan, but there are several issues that prevent it from fully adhering to the raw vegan dietary restriction. Firstly, the use of toasted sesame oil and toasted sesame seeds is not compliant with raw vegan guidelines, as these ingredients are typically heated above 118°F during processing. Additionally, the recipe suggests blanching the edamame, which involves cooking it in hot water, thus violating the raw aspect of the diet. While the recipe does mention using raw, shelled edamame if available, the inclusion of a cooking method that involves heat is not suitable for a strict raw vegan diet. Furthermore, the use of tamari or soy sauce may also be problematic, as these are often pasteurized or processed at high temperatures, unless specifically labeled as raw. Therefore, the recipe does not fully meet the raw vegan criteria.
-Label: FAIL
-
-Example 4:
-Query: Hey, can you suggest some easy low-sodium meals? Trying to watch my salt intake.
-Recipe Response: ## Miso Glazed Eggplant (Low-Sodium & Vegetarian)
-
-Delight in a savory-sweet miso glazed eggplant dish that's bursting with umami flavors but gentle on your sodium intake—perfect for a healthy and satisfying meal.
-
-### Ingredients
-
-- 1 large Japanese eggplant (about 300g), sliced into 1/2-inch rounds
-- 1 tbsp low-sodium white miso paste
-- 1 tbsp mirin (sweet rice wine)
-- 1 tbsp sake or water
-- 1 tsp honey or maple syrup
-- 1 tsp grated fresh ginger
-- 1 tsp toasted sesame oil
-- 1 tsp rice vinegar
-- 1 tsp sesame seeds, for garnish
-- 1 green onion, finely chopped, for garnish
-- 1 tbsp neutral oil (such as canola or vegetable oil) for cooking
-
-### Instructions
-
-1. **Prepare the glaze:** In a small bowl, whisk together the low-sodium white miso paste, mirin, sake (or water), honey, grated ginger, toasted sesame oil, and rice vinegar until smooth and well combined. Set aside.
-2. **Cook the eggplant:** Heat the neutral oil in a non-stick skillet over medium heat. Add the eggplant slices, cooking for about 3-4 minutes on each side, until they become tender and lightly browned.
-3. **Glaze the eggplant:** Lower the heat to medium-low, then brush each eggplant slice generously with the miso glaze. Cook for another 1-2 minutes per side, allowing the glaze to caramelize slightly but not burn.
-4. **Serve:** Transfer the glazed eggplant slices to a serving plate. Sprinkle with sesame seeds and chopped green onions for a fresh finish.
-
-### Serving Size
-
-This recipe serves 2 people.
-
----
-
-**Fun Tip:** Serve this miso glazed eggplant alongside steamed brown rice or quinoa for a wholesome, balanced meal that's low in sodium but rich in flavor. Itadakimasu!
-Reasoning: The recipe for Miso Glazed Eggplant is intended to be low-sodium, but there are concerns regarding the sodium content of certain ingredients. While the recipe uses low-sodium white miso paste, miso is inherently high in sodium, even in its low-sodium form. Additionally, mirin and sake can also contribute to the sodium content, although they are not typically high in sodium. The recipe does not specify the sodium content of these ingredients, which makes it difficult to ensure that the overall dish is truly low in sodium. The use of honey or maple syrup, ginger, sesame oil, rice vinegar, sesame seeds, and green onion do not contribute significantly to sodium levels. However, the reliance on miso as a primary flavoring agent is problematic for a low-sodium diet.
 Label: FAIL
 
 

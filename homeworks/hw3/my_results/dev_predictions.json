@@ -1,10 +1,10 @@
 [
   {
-    "trace_id": "6_2",
+    "trace_id": "17_12",
     "true_label": "PASS",
     "predicted_label": "PASS",
-    "query": "Looking for some easy gluten free dinner ideas that my whole family will actually enjoy!",
-    "dietary_restriction": "gluten-free",
+    "query": "Looking for some easy paleo-friendly meals I can whip up after work\u2014got any favorites?",
+    "dietary_restriction": "paleo",
     "success": true
   },
   {
@@ -16,27 +16,11 @@
     "success": true
   },
   {
-    "trace_id": "42_13",
+    "trace_id": "40_9",
     "true_label": "PASS",
     "predicted_label": "PASS",
-    "query": "Hey, I\u2019m trying to cut out sugar\u2014got any tasty sugar-free snack recipes?",
+    "query": "Looking for some easy sugar-free snacks to keep me going during work, any ideas?",
     "dietary_restriction": "sugar-free",
-    "success": true
-  },
-  {
-    "trace_id": "35_13",
-    "true_label": "FAIL",
-    "predicted_label": "PASS",
-    "query": "Hey, can you suggest some tasty low-sodium dinner ideas? Trying to keep my salt intake down.",
-    "dietary_restriction": "low-sodium",
-    "success": true
-  },
-  {
-    "trace_id": "23_8",
-    "true_label": "PASS",
-    "predicted_label": "PASS",
-    "query": "Looking for some easy nut-free snack ideas, since I have a sensitivity. Any good suggestions?",
-    "dietary_restriction": "nut-free",
     "success": true
   },
   {
@@ -48,147 +32,19 @@
     "success": true
   },
   {
-    "trace_id": "3_10",
+    "trace_id": "42_13",
     "true_label": "PASS",
     "predicted_label": "PASS",
-    "query": "Looking for some easy vegan lunch ideas that aren\u2019t just salad, any good recipes?",
-    "dietary_restriction": "vegan",
-    "success": true
-  },
-  {
-    "trace_id": "43_8",
-    "true_label": "FAIL",
-    "predicted_label": "PASS",
-    "query": "Looking for some easy halal dinner recipes that don\u2019t require fancy ingredients. Got any ideas?",
-    "dietary_restriction": "halal",
-    "success": true
-  },
-  {
-    "trace_id": "40_9",
-    "true_label": "PASS",
-    "predicted_label": "PASS",
-    "query": "Looking for some easy sugar-free snacks to keep me going during work, any ideas?",
+    "query": "Hey, I\u2019m trying to cut out sugar\u2014got any tasty sugar-free snack recipes?",
     "dietary_restriction": "sugar-free",
-    "success": true
-  },
-  {
-    "trace_id": "45_14",
-    "true_label": "FAIL",
-    "predicted_label": "PASS",
-    "query": "Looking for some easy halal dinner recipes that my whole family will love, any ideas?",
-    "dietary_restriction": "halal",
-    "success": true
-  },
-  {
-    "trace_id": "17_12",
-    "true_label": "PASS",
-    "predicted_label": "PASS",
-    "query": "Looking for some easy paleo-friendly meals I can whip up after work\u2014got any favorites?",
-    "dietary_restriction": "paleo",
-    "success": true
-  },
-  {
-    "trace_id": "47_14",
-    "true_label": "PASS",
-    "predicted_label": "PASS",
-    "query": "Got any easy kosher dinner recipes? Trying to keep it simple tonight but still tasty.",
-    "dietary_restriction": "kosher",
-    "success": true
-  },
-  {
-    "trace_id": "3_9",
-    "true_label": "PASS",
-    "predicted_label": "PASS",
-    "query": "Looking for some easy vegan lunch ideas that aren\u2019t just salad, any good recipes?",
-    "dietary_restriction": "vegan",
-    "success": true
-  },
-  {
-    "trace_id": "39_7",
-    "true_label": "PASS",
-    "predicted_label": "PASS",
-    "query": "Looking for some easy low-carb dinner ideas that don\u2019t taste like cardboard\u2014got any good ones?",
-    "dietary_restriction": "low-carb",
-    "success": true
-  },
-  {
-    "trace_id": "8_9",
-    "true_label": "PASS",
-    "predicted_label": "PASS",
-    "query": "Trying to stay keto\u2014got any easy dinner recipes that won\u2019t blow my carbs for the day?",
-    "dietary_restriction": "keto",
-    "success": true
-  },
-  {
-    "trace_id": "46_10",
-    "true_label": "PASS",
-    "predicted_label": "PASS",
-    "query": "Looking for some tasty kosher dinner ideas that aren\u2019t too complicated\u2014got any favorites?",
-    "dietary_restriction": "kosher",
-    "success": true
-  },
-  {
-    "trace_id": "35_11",
-    "true_label": "PASS",
-    "predicted_label": "PASS",
-    "query": "Hey, can you suggest some tasty low-sodium dinner ideas? Trying to keep my salt intake down.",
-    "dietary_restriction": "low-sodium",
-    "success": true
-  },
-  {
-    "trace_id": "32_6",
-    "true_label": "PASS",
-    "predicted_label": "PASS",
-    "query": "Trying to stick to Whole30 \u2014 got any easy weeknight dinner recipes that fit?",
-    "dietary_restriction": "whole30",
-    "success": true
-  },
-  {
-    "trace_id": "43_15",
-    "true_label": "FAIL",
-    "predicted_label": "PASS",
-    "query": "Looking for some easy halal dinner recipes that don\u2019t require fancy ingredients. Got any ideas?",
-    "dietary_restriction": "halal",
-    "success": true
-  },
-  {
-    "trace_id": "31_10",
-    "true_label": "PASS",
-    "predicted_label": "PASS",
-    "query": "Got any easy Whole30 lunch ideas? Trying to keep it simple but tasty.",
-    "dietary_restriction": "whole30",
     "success": true
   },
   {
     "trace_id": "20_13",
     "true_label": "PASS",
-    "predicted_label": "UNKNOWN",
+    "predicted_label": "PASS",
     "query": "Got any easy diabetic-friendly dinner recipes? Something low in sugar but tasty would be awesome.",
     "dietary_restriction": "diabetic-friendly",
-    "success": true
-  },
-  {
-    "trace_id": "13_1",
-    "true_label": "PASS",
-    "predicted_label": "PASS",
-    "query": "Trying to eat more vegetarian stuff\u2014got any easy dinner recipes that don\u2019t take forever?",
-    "dietary_restriction": "vegetarian",
-    "success": true
-  },
-  {
-    "trace_id": "21_3",
-    "true_label": "PASS",
-    "predicted_label": "PASS",
-    "query": "Hey, can you suggest some easy diabetic-friendly lunch ideas that don\u2019t spike blood sugar?",
-    "dietary_restriction": "diabetic-friendly",
-    "success": true
-  },
-  {
-    "trace_id": "35_3",
-    "true_label": "PASS",
-    "predicted_label": "PASS",
-    "query": "Hey, can you suggest some tasty low-sodium dinner ideas? Trying to keep my salt intake down.",
-    "dietary_restriction": "low-sodium",
     "success": true
   },
   {
@@ -200,11 +56,19 @@
     "success": true
   },
   {
-    "trace_id": "37_13",
+    "trace_id": "3_9",
     "true_label": "PASS",
     "predicted_label": "PASS",
-    "query": "Hey, can you suggest some easy low-carb dinner ideas? Trying to keep the carbs down but still want something tasty.",
-    "dietary_restriction": "low-carb",
+    "query": "Looking for some easy vegan lunch ideas that aren\u2019t just salad, any good recipes?",
+    "dietary_restriction": "vegan",
+    "success": true
+  },
+  {
+    "trace_id": "6_2",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "query": "Looking for some easy gluten free dinner ideas that my whole family will actually enjoy!",
+    "dietary_restriction": "gluten-free",
     "success": true
   },
   {
@@ -216,9 +80,73 @@
     "success": true
   },
   {
-    "trace_id": "35_15",
+    "trace_id": "45_14",
+    "true_label": "FAIL",
+    "predicted_label": "FAIL",
+    "query": "Looking for some easy halal dinner recipes that my whole family will love, any ideas?",
+    "dietary_restriction": "halal",
+    "success": true
+  },
+  {
+    "trace_id": "35_13",
+    "true_label": "FAIL",
+    "predicted_label": "FAIL",
+    "query": "Hey, can you suggest some tasty low-sodium dinner ideas? Trying to keep my salt intake down.",
+    "dietary_restriction": "low-sodium",
+    "success": true
+  },
+  {
+    "trace_id": "21_3",
     "true_label": "PASS",
     "predicted_label": "PASS",
+    "query": "Hey, can you suggest some easy diabetic-friendly lunch ideas that don\u2019t spike blood sugar?",
+    "dietary_restriction": "diabetic-friendly",
+    "success": true
+  },
+  {
+    "trace_id": "23_8",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "query": "Looking for some easy nut-free snack ideas, since I have a sensitivity. Any good suggestions?",
+    "dietary_restriction": "nut-free",
+    "success": true
+  },
+  {
+    "trace_id": "43_8",
+    "true_label": "FAIL",
+    "predicted_label": "PASS",
+    "query": "Looking for some easy halal dinner recipes that don\u2019t require fancy ingredients. Got any ideas?",
+    "dietary_restriction": "halal",
+    "success": true
+  },
+  {
+    "trace_id": "47_14",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "query": "Got any easy kosher dinner recipes? Trying to keep it simple tonight but still tasty.",
+    "dietary_restriction": "kosher",
+    "success": true
+  },
+  {
+    "trace_id": "13_1",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "query": "Trying to eat more vegetarian stuff\u2014got any easy dinner recipes that don\u2019t take forever?",
+    "dietary_restriction": "vegetarian",
+    "success": true
+  },
+  {
+    "trace_id": "31_10",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "query": "Got any easy Whole30 lunch ideas? Trying to keep it simple but tasty.",
+    "dietary_restriction": "whole30",
+    "success": true
+  },
+  {
+    "trace_id": "35_15",
+    "true_label": "PASS",
+    "predicted_label": "FAIL",
     "query": "Hey, can you suggest some tasty low-sodium dinner ideas? Trying to keep my salt intake down.",
     "dietary_restriction": "low-sodium",
     "success": true
@@ -232,35 +160,11 @@
     "success": true
   },
   {
-    "trace_id": "44_9",
+    "trace_id": "43_15",
     "true_label": "FAIL",
-    "predicted_label": "UNKNOWN",
-    "query": "Can you suggest some easy halal recipes for dinner? Looking for something quick and tasty.",
+    "predicted_label": "FAIL",
+    "query": "Looking for some easy halal dinner recipes that don\u2019t require fancy ingredients. Got any ideas?",
     "dietary_restriction": "halal",
-    "success": true
-  },
-  {
-    "trace_id": "23_3",
-    "true_label": "PASS",
-    "predicted_label": "PASS",
-    "query": "Looking for some easy nut-free snack ideas, since I have a sensitivity. Any good suggestions?",
-    "dietary_restriction": "nut-free",
-    "success": true
-  },
-  {
-    "trace_id": "46_4",
-    "true_label": "PASS",
-    "predicted_label": "PASS",
-    "query": "Looking for some tasty kosher dinner ideas that aren\u2019t too complicated\u2014got any favorites?",
-    "dietary_restriction": "kosher",
-    "success": true
-  },
-  {
-    "trace_id": "11_3",
-    "true_label": "PASS",
-    "predicted_label": "PASS",
-    "query": "Looking for some easy dairy-free dinner ideas, anything tasty and quick?",
-    "dietary_restriction": "dairy-free",
     "success": true
   },
   {
@@ -272,11 +176,83 @@
     "success": true
   },
   {
-    "trace_id": "13_8",
+    "trace_id": "35_11",
+    "true_label": "PASS",
+    "predicted_label": "FAIL",
+    "query": "Hey, can you suggest some tasty low-sodium dinner ideas? Trying to keep my salt intake down.",
+    "dietary_restriction": "low-sodium",
+    "success": true
+  },
+  {
+    "trace_id": "35_3",
     "true_label": "PASS",
     "predicted_label": "PASS",
-    "query": "Trying to eat more vegetarian stuff\u2014got any easy dinner recipes that don\u2019t take forever?",
-    "dietary_restriction": "vegetarian",
+    "query": "Hey, can you suggest some tasty low-sodium dinner ideas? Trying to keep my salt intake down.",
+    "dietary_restriction": "low-sodium",
+    "success": true
+  },
+  {
+    "trace_id": "44_9",
+    "true_label": "FAIL",
+    "predicted_label": "FAIL",
+    "query": "Can you suggest some easy halal recipes for dinner? Looking for something quick and tasty.",
+    "dietary_restriction": "halal",
+    "success": true
+  },
+  {
+    "trace_id": "46_4",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "query": "Looking for some tasty kosher dinner ideas that aren\u2019t too complicated\u2014got any favorites?",
+    "dietary_restriction": "kosher",
+    "success": true
+  },
+  {
+    "trace_id": "32_6",
+    "true_label": "PASS",
+    "predicted_label": "UNKNOWN",
+    "query": "Trying to stick to Whole30 \u2014 got any easy weeknight dinner recipes that fit?",
+    "dietary_restriction": "whole30",
+    "success": true
+  },
+  {
+    "trace_id": "39_7",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "query": "Looking for some easy low-carb dinner ideas that don\u2019t taste like cardboard\u2014got any good ones?",
+    "dietary_restriction": "low-carb",
+    "success": true
+  },
+  {
+    "trace_id": "46_10",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "query": "Looking for some tasty kosher dinner ideas that aren\u2019t too complicated\u2014got any favorites?",
+    "dietary_restriction": "kosher",
+    "success": true
+  },
+  {
+    "trace_id": "23_3",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "query": "Looking for some easy nut-free snack ideas, since I have a sensitivity. Any good suggestions?",
+    "dietary_restriction": "nut-free",
+    "success": true
+  },
+  {
+    "trace_id": "3_10",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "query": "Looking for some easy vegan lunch ideas that aren\u2019t just salad, any good recipes?",
+    "dietary_restriction": "vegan",
+    "success": true
+  },
+  {
+    "trace_id": "8_9",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "query": "Trying to stay keto\u2014got any easy dinner recipes that won\u2019t blow my carbs for the day?",
+    "dietary_restriction": "keto",
     "success": true
   },
   {
@@ -288,11 +264,11 @@
     "success": true
   },
   {
-    "trace_id": "37_11",
+    "trace_id": "11_3",
     "true_label": "PASS",
-    "predicted_label": "FAIL",
-    "query": "Hey, can you suggest some easy low-carb dinner ideas? Trying to keep the carbs down but still want something tasty.",
-    "dietary_restriction": "low-carb",
+    "predicted_label": "PASS",
+    "query": "Looking for some easy dairy-free dinner ideas, anything tasty and quick?",
+    "dietary_restriction": "dairy-free",
     "success": true
   },
   {
@@ -301,6 +277,30 @@
     "predicted_label": "FAIL",
     "query": "Trying to stick to Whole30 \u2014 got any easy weeknight dinner recipes that fit?",
     "dietary_restriction": "whole30",
+    "success": true
+  },
+  {
+    "trace_id": "13_8",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "query": "Trying to eat more vegetarian stuff\u2014got any easy dinner recipes that don\u2019t take forever?",
+    "dietary_restriction": "vegetarian",
+    "success": true
+  },
+  {
+    "trace_id": "37_11",
+    "true_label": "PASS",
+    "predicted_label": "PASS",
+    "query": "Hey, can you suggest some easy low-carb dinner ideas? Trying to keep the carbs down but still want something tasty.",
+    "dietary_restriction": "low-carb",
+    "success": true
+  },
+  {
+    "trace_id": "37_13",
+    "true_label": "PASS",
+    "predicted_label": "FAIL",
+    "query": "Hey, can you suggest some easy low-carb dinner ideas? Trying to keep the carbs down but still want something tasty.",
+    "dietary_restriction": "low-carb",
     "success": true
   }
 ]

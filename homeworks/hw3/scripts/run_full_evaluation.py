@@ -24,7 +24,7 @@ console = Console()
 # Model used for the LLM judge
 MODEL_NAME_JUDGE: Final[str] = os.environ.get("MODEL_NAME_JUDGE", "gpt-4o-nano")
 
-MAX_WORKERS = 32
+MAX_WORKERS = 8 # 32
 
 def load_traces(csv_path: str) -> List[Dict[str, Any]]:
     """Load traces from CSV file."""
@@ -56,6 +56,7 @@ def evaluate_single_trace_for_binary(args: tuple) -> int:
     formatted_prompt = formatted_prompt.replace("__RESPONSE__", response)
     
     try:
+        # litellm._turn_on_debug()
         # Get judge prediction
         completion = litellm.completion(
             model=MODEL_NAME_JUDGE,
@@ -107,6 +108,8 @@ def run_judge_on_traces(judge_prompt: str, traces: List[Dict[str, Any]],
     tasks = [(trace, judge_prompt) for trace in traces]
     
     predictions = []
+    
+    print(f"Model used for judge evaluation: {MODEL_NAME_JUDGE}")
     
     # Use ThreadPoolExecutor for parallel evaluation
     with ThreadPoolExecutor(max_workers=max_workers) as executor:

@@ -105,6 +105,19 @@ def print_split_statistics(train_traces: List[Dict[str, Any]],
     restriction_counts = get_restriction_counts(train_traces)
     for restriction, count in sorted(restriction_counts.items()):
         console.print(f"  {restriction}: {count}")
+        
+    # Dietary restriction distribution (for dev set)
+    console.print("\n[bold]Dietary Restrictions in Dev Set:")
+    restriction_counts = get_restriction_counts(dev_traces)
+    for restriction, count in sorted(restriction_counts.items()):
+        console.print(f"  {restriction}: {count}")
+    
+    # Dietary restriction distribution (for test set)
+    console.print("\n[bold]Dietary Restrictions in Test Set:")
+    restriction_counts = get_restriction_counts(test_traces)
+    for restriction, count in sorted(restriction_counts.items()):
+        console.print(f"  {restriction}: {count}")
+   
 
 def validate_splits(train_traces: List[Dict[str, Any]], 
                    dev_traces: List[Dict[str, Any]], 
